@@ -1,0 +1,26 @@
+#section-addon-typekit-settings,
+#section-addon-fontdeck-settings,
+#section-addon-font-picker-settings {
+	display: none;
+}
+
+#wptouch-settings-area #section-addon-fontdeck-domain ul.padded,
+#wptouch-settings-area #section-addon-fontdeck-project ul.padded,
+#wptouch-settings-area #section-addon-typekit-id ul.padded {
+	padding-bottom: 10px;
+}
+
+#reload_fonts {
+	display: block;
+	margin: 0 0 0 215px;
+	opacity: 1;
+}
+	#reload_fonts a {
+		margin-left: 18px;
+	}
+
+#font_load_error {
+	color: red;
+	font-weight: bold;
+	margin: 0 0 20px 235px;
+}

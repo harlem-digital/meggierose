@@ -1,0 +1,98 @@
+/* RTL Theme CSS */
+
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+h3.search-heading.page-heading {
+	text-align: right; /* RTL */
+}
+.search li a:after {
+	margin-left: 0px;
+	margin-right: 5px; /* RTL */
+}
+.back-to-top:before {
+	padding-right: 0px;
+	padding-left: 5px; /* RTL */
+}
+
+.rtl ul.tab-menu {
+	text-align: right;
+}
+
+.rtl nav a:after {
+	content: '';
+}
+
+ul.tab-menu li {
+	padding: 5px 10px 0 0;
+}
+
+.rtl .menu-tree li.menu-item a {
+	padding-right: 0;
+}
+
+.rtl #menu-toggle {
+	left: 0 !important;
+	right: auto;
+}
+
+.rtl nav .auto i {
+	float: right;
+	padding-left: 10px;
+}
+
+.rtl nav .menu-tree li img {
+	padding-left: 10px !important;
+	padding-right: 0;
+}
+
+.rtl nav a:after {
+	left: 10px;
+	right: auto;
+}
+
+.rtl nav .has_children a:after {
+	left: 60px;
+}
+
+dd {
+	-webkit-margin-start: 0 !important;
+}
+
+.rtl .tab-section.options #font-size li a {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+.rtl .progress-indicator {
+	border-radius: 0 5px 5px 0;
+	left: 0;
+	right: auto;
+}
+	.rtl .progress-indicator.share.open {
+		padding: 5px 8px 6px 0;
+	}
+
+.rtl.single.has-header-image #content .post-meta {
+	padding: 0 20px 0 0;
+}
+
+.rtl.use-dropcap.single #content .post-content > p:first-of-type::first-letter {
+	float: right;
+}
+
+.rtl div#slider.related-posts.swipe,
+.rtl .dots {
+	direction: ltr;
+}
+	.rtl .one-swipe-image,
+	.rtl .one-swipe-image p {
+		text-align: right;
+	}
+
+.rtl .reading-time {
+	padding-right: 20px;
+	padding-left: 0;
+}
