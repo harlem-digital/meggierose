@@ -19,6 +19,7 @@ Note: There is a local database version you can setup. Just make sure the alias 
 
 Project uses Grunt tasks:
 
+* sass
 * autoprefixer
 * jshint
 * cssmin
