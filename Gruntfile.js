@@ -113,7 +113,7 @@ module.exports = function(grunt) {
         	},
 			dist: {
 				files: [{
-				expand: true,
+					expand: true,
 					cwd: '<%= config.target %>/css/',
 					src: ['**/{,*/}.css'],
 					dest: '<%= config.target %>/css'
@@ -156,6 +156,6 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask('default');
-	grunt.registerTask('build', ['autoprefixer', 'cssmin', 'uglify', 'imagemin']);
+	grunt.registerTask('build', ['autoprefixer', 'cssmin', 'uglify']);
 
 };
