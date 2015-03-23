@@ -29,7 +29,7 @@ define('DB_PASSWORD', 'FvQeuQV2015!');
 
 /** MySQL hostname */
 /*define('DB_HOST', 'mysql.memorabella.com');*/
-define('DB_HOST', 'https://p3nlmysqladm001.secureserver.net/nld41/1');
+define('DB_HOST', 'memorabellacom.db.5985714.hostedresource.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
