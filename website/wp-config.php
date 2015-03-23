@@ -17,19 +17,22 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 /*define('DB_NAME', 'memorabella_com');*/
-define('DB_NAME', 'memorabellacom');
+/*define('DB_NAME', 'memorabellacom');*/
+define('DB_NAME', 'memorabella');
 
 /** MySQL database username */
 /*define('DB_USER', 'memorabellacom');*/
-define('DB_USER', 'memorabellacom');
+define('DB_USER', 'root');
 
 /** MySQL database password */
 /*define('DB_PASSWORD', 'FvQeu-QV');*/
-define('DB_PASSWORD', 'FvQeuQV2015!');
+/*define('DB_PASSWORD', 'FvQeuQV2015!');*/
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
 /*define('DB_HOST', 'mysql.memorabella.com');*/
-define('DB_HOST', 'memorabellacom.db.5985714.hostedresource.com');
+/*define('DB_HOST', 'memorabellacom.db.5985714.hostedresource.com');*/
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
