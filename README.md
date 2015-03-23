@@ -10,9 +10,10 @@ Local: http://localhost/memorabella
 ##Setup
 
 1. Create a project folder called `memorabella`.
-2. `git clone https://github.com/harlem-digital/meggierose.git`
-3. `npm install`
-4. There is a local database version you can setup. Just make sure the alias matches the "Local URL" above.
+2. Open up Terminal, navigate to that project folder and type the command: `git clone https://github.com/harlem-digital/meggierose.git`.
+3. Then type the command: `npm install`.
+
+Note: There is a local database version you can setup. Just make sure the alias matches the "Local URL" above.
 
 ##Grunt
 
