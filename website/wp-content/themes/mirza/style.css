@@ -27,7 +27,6 @@ body{
 	font: 14px/16px Times, "Times New Roman", Georgia, serif;
 	background: #fbfbf9 url(images/bg.png) repeat-y center;
 }
-
 a{ font-weight: bold; text-decoration: none; color: #ff9393;}
 a:hover{ color: #333333;}
 
