@@ -1,0 +1,50 @@
+// --------------------------------------
+// Font Helpers
+// --------------------------------------
+
+// --------------------
+// Icon
+// --------------------
+
+@mixin icon() {
+	vertical-align: top;
+	text-align: center;
+	display: inline-block;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	speak: none;
+}
+
+// --------------------
+// Get Icon
+// --------------------
+
+@mixin get-icon($icon-name) {
+	$icon: map-get($-icons, $icon-name);
+	$type: map-get($icon, type);
+	$content: map-get($icon, content);
+	$content: #{"\"\\"}#{$content + "\""};
+	
+	&:before{
+		font-family: map-get($-icon-font-family, $type);
+		content: $content;
+	}
+}
+
+// --------------------
+// Generate Icon Classes
+// --------------------
+
+@mixin generate-icon-classes($icon-list) {
+	.icon { @include icon(); }
+
+	@each $icon-name, $icon-value in $icon-list {
+		.icon-#{$icon-name} { @include get-icon($icon-name); }
+	}
+}
