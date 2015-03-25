@@ -7,26 +7,6 @@ Redesign for http://memorabella.com
 Subdomain: http://memorabella.wyattmeade.com
 Local: http://localhost/memorabella
 
-###Theme
-
-Memorabella is the new WP Theme. It's using a CSS Framework crafted by Ken Jackson.
-
-####css/app
-
-This houses all of the helpers (mixins, functions, default variables, etc). There should be no real need to go into this directory unless there is a bug that needs to be fixed. Any variables defined are marked as !default and can be overriden within the theme directory.
-
-####css/theme
-
-This will house all of the helpers (mixins, functions, variables, etc) that are specific to this particular theme. You can override any variables here, and you can define new variables / functionality within this directory.
-
-####css/pages
-
-This houses all page specific CSS. Not every page will need a CSS file, but if there is custom styling for a particular page you can create a CSS file in this directory. For example, 'home.css' would go in here and will have CSS only that the homepage might have.
-
-####css/global.css
-
-Any global styling that is shared between all pages will go here. For example, styling for the header or footer might go in here if it's shared across all pages.
-
 ##Setup
 
 1. Create a project folder called `memorabella`.
@@ -50,7 +30,7 @@ Project uses Grunt tasks:
 To watch changes to files in a theme.
 
 ```
-grunt watch -theme=theme-name
+grunt watch -theme=memorabella
 ```
 
 ###Build
@@ -58,5 +38,25 @@ grunt watch -theme=theme-name
 To build files for production.
 
 ```
-grunt build -theme=theme-name
+grunt build -theme=memorabella
 ```
+
+##Theme
+
+Memorabella is the new WP Theme. It's using a CSS Framework crafted by Ken Jackson.
+
+####css/app
+
+This houses all of the helpers (mixins, functions, default variables, etc). There should be no real need to go into this directory unless there is a bug that needs to be fixed. Any variables defined are marked as !default and can be overriden within the theme directory.
+
+####css/theme
+
+This will house all of the helpers (mixins, functions, variables, etc) that are specific to this particular theme. You can override any variables here, and you can define new variables / functionality within this directory.
+
+####css/pages
+
+This houses all page specific CSS. Not every page will need a CSS file, but if there is custom styling for a particular page you can create a CSS file in this directory. For example, 'home.css' would go in here and will have CSS only that the homepage might have.
+
+####css/global.css
+
+Any global styling that is shared between all pages will go here. For example, styling for the header or footer might go in here if it's shared across all pages.
