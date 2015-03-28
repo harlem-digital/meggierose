@@ -152,17 +152,28 @@ h1 a {
 }
 
 /* line 85, theme/layout/_header.scss */
-.form {
+#form {
   position: absolute;
   width: 900px;
   top: 34px;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
+  opacity: 0;
+  -webkit-transform: translate(-50%, -90px);
+      -ms-transform: translate(-50%, -90px);
+          transform: translate(-50%, -90px);
+  -webkit-transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1), -webkit-transform 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
+          transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1), transform 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 
-/* line 93, theme/layout/_header.scss */
+/* line 97, theme/layout/_header.scss */
+#form.open {
+  opacity: 1;
+  -webkit-transform: translate(-50%, 0);
+      -ms-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+/* line 102, theme/layout/_header.scss */
 .form-search {
   float: left;
   width: 739px;
@@ -176,7 +187,7 @@ h1 a {
   outline: 0;
   background: #000;
 }
-/* line 106, theme/layout/_header.scss */
+/* line 115, theme/layout/_header.scss */
 .form-search::-webkit-input-placeholder {
   color: #666;
 }
@@ -190,7 +201,7 @@ h1 a {
   color: #666;
 }
 
-/* line 109, theme/layout/_header.scss */
+/* line 118, theme/layout/_header.scss */
 .form-icon {
   display: block;
   float: left;
@@ -199,24 +210,24 @@ h1 a {
   background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-sprite-desktop.png) #000 no-repeat;
 }
 
-/* line 117, theme/layout/_header.scss */
+/* line 126, theme/layout/_header.scss */
 .form-search-icon {
   border: 0;
   outline: 0;
   cursor: pointer;
   background-position: -837px -131px;
 }
-/* line 123, theme/layout/_header.scss */
+/* line 132, theme/layout/_header.scss */
 .form-search-icon:hover {
   background-position: -837px -182px;
 }
 
-/* line 126, theme/layout/_header.scss */
+/* line 135, theme/layout/_header.scss */
 .form-cancel-icon {
   margin-left: 1px;
   background-position: -900px -131px;
 }
-/* line 130, theme/layout/_header.scss */
+/* line 139, theme/layout/_header.scss */
 .form-cancel-icon:hover {
   background-position: -900px -182px;
 }

@@ -82,12 +82,21 @@ h1 {
 	}
 }
 
-.form {
+#form {
 	position: absolute;
 	width: 900px;
 	top: 34px;
 	left: 50%;
-	transform: translateX(-50%);
+	opacity: 0;
+	transform: translate(-50%, -90px);
+
+	transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1),
+				transform 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
+}
+
+#form.open {
+	opacity: 1;
+	transform: translate(-50%, 0);
 }
 
 .form-search {
