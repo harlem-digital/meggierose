@@ -18,7 +18,13 @@ h1 {
 	margin: 0 auto;
 	background: url(#{$path}/images/memorabella-logo.png) center bottom no-repeat;
 
-	@include image-replace();
+	a {
+		display: block;
+		width: 100%;
+		height: 100%;
+		
+		@include image-replace();
+	}
 }
 
 .social-nav {
@@ -49,3 +55,26 @@ h1 {
 .icon-search a { background-position: -60px -23px; }
 .icon-instagram a { background-position: -91px -23px; }
 .icon-pinterest a { background-position: -122px -23px; }
+
+.main-nav {
+	text-align: center;
+	position: relative;
+	top: 135px;
+
+	li {
+		margin: 0 16px;
+		font-family: $arial;
+		font-size: 14px;
+		font-weight: bold;
+		text-transform: uppercase;
+		
+		@include inline-block;
+
+		a {
+			color: $gray-01;
+			text-decoration: none;
+
+			&:hover { color: $black-01; }
+		}
+	}
+}

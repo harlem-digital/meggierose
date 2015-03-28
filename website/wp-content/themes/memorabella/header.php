@@ -25,7 +25,7 @@
 <body <?php body_class(); ?>>
 
 	<header class="header">
-		<h1>Memorabella</h1>
+		<h1><a href="/">Memorabella</a></h1>
 		<div class="navigation">
 			<nav class="social-nav">
 				<?php
