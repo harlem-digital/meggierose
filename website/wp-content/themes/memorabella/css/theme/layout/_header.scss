@@ -4,7 +4,7 @@
 
 .header {
 	ul {
-		margin: 0;
+		margin: 0 auto;
 		padding: 0;
 		list-style: none;
 	}
@@ -35,9 +35,12 @@ h1 {
 	left: 0;
 	background: $black-01;
 
+	.menu { width: 900px; }
+
 	.icon {
 		width: 17px;
 		height: 17px;
+		margin-right: 14px;
 
 		@include inline-block();
 	}
