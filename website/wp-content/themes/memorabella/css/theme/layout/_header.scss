@@ -2,7 +2,7 @@
 // Header
 // --------------------------------------
 
-header {
+.header {
 	ul {
 		margin: 0;
 		padding: 0;
@@ -22,7 +22,7 @@ h1 {
 		display: block;
 		width: 100%;
 		height: 100%;
-		
+
 		@include image-replace();
 	}
 }
@@ -77,4 +77,52 @@ h1 {
 			&:hover { color: $black-01; }
 		}
 	}
+}
+
+.form {
+	position: absolute;
+	width: 900px;
+	top: 34px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.form-search {
+	float: left;
+	width: 739px;
+	height: 49px;
+	padding: 0 20px;
+	color: $white-01;
+	font-family: $arial;
+	font-size: 20px;
+	text-transform: uppercase;
+	border: 0;
+	outline: 0;
+	background: $black-01;
+
+	&::placeholder { color: $gray-02; }
+}
+
+.form-icon {
+	display: block;
+	float: left;
+	width: 60px;
+	height: 49px;
+	background: url(#{$path}/images/memorabella-sprite-desktop.png) $black-01 no-repeat;
+}
+
+.form-search-icon {
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	background-position: -837px -131px;
+
+	&:hover { background-position: -837px -182px; }
+}
+
+.form-cancel-icon {
+	margin-left: 1px;
+	background-position: -900px -131px;
+
+	&:hover { background-position: -900px -182px; }
 }

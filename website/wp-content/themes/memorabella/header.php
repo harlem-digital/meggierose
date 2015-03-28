@@ -50,6 +50,13 @@
 
 				wp_nav_menu( $socialmenu );
 				?>
+				<form class="form" action="/memorabella/" method="get">
+					<label class="form-label">
+						<input class="form-search" type="text" name="s" id="search" value="<?php the_search_query(); ?>" placeholder="What Can I Help You Find?" />
+						<input class="form-icon form-search-icon" type="submit" value="" />
+						<a href="#" class="form-icon form-cancel-icon"></a>
+					</label>
+				</form>
 			</nav>
 			<nav class="main-nav">
 				<?php
