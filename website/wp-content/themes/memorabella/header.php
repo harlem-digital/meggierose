@@ -24,57 +24,59 @@
 
 <body <?php body_class(); ?>>
 
-	<header>
-		<h1>Memorabella Logo</h1>
-		<nav class="main-nav">
-			<?php
-			$mainmenu = array(
-				'theme_location'  => '',
-				'menu'            => 'Main Menu',
-				'container'       => '',
-				'container_class' => '',
-				'container_id'    => '',
-				'menu_class'      => 'menu large_15 col centered',
-				'menu_id'         => '',
-				'echo'            => true,
-				'fallback_cb'     => 'wp_page_menu',
-				'before'          => '',
-				'after'           => '',
-				'link_before'     => '',
-				'link_after'      => '',
-				'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-				'depth'           => 0,
-				'walker'          => ''
-			);
+	<header class="header">
+		<h1>Memorabella</h1>
+		<div class="navigation">
+			<nav class="social-nav">
+				<?php
+				$socialmenu = array(
+					'theme_location'  => '',
+					'menu'            => 'Social Menu',
+					'container'       => '',
+					'container_class' => '',
+					'container_id'    => '',
+					'menu_class'      => 'menu large_15 col',
+					'menu_id'         => '',
+					'echo'            => true,
+					'fallback_cb'     => 'wp_page_menu',
+					'before'          => '',
+					'after'           => '',
+					'link_before'     => '',
+					'link_after'      => '',
+					'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+					'depth'           => 0,
+					'walker'          => ''
+				);
 
-			wp_nav_menu( $mainmenu );
+				wp_nav_menu( $socialmenu );
+				?>
+			</nav>
+			<nav class="main-nav">
+				<?php
+				$mainmenu = array(
+					'theme_location'  => '',
+					'menu'            => 'Main Menu',
+					'container'       => '',
+					'container_class' => '',
+					'container_id'    => '',
+					'menu_class'      => 'menu large_15 col',
+					'menu_id'         => '',
+					'echo'            => true,
+					'fallback_cb'     => 'wp_page_menu',
+					'before'          => '',
+					'after'           => '',
+					'link_before'     => '',
+					'link_after'      => '',
+					'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+					'depth'           => 0,
+					'walker'          => ''
+				);
 
-			?>
-		</nav>
-		<nav class="social-nav">
-			<?php
+				wp_nav_menu( $mainmenu );
 
-			$socialmenu = array(
-				'theme_location'  => '',
-				'menu'            => 'Social Menu',
-				'container'       => '',
-				'container_class' => '',
-				'container_id'    => '',
-				'menu_class'      => 'menu large_15 col centered',
-				'menu_id'         => '',
-				'echo'            => true,
-				'fallback_cb'     => 'wp_page_menu',
-				'before'          => '',
-				'after'           => '',
-				'link_before'     => '',
-				'link_after'      => '',
-				'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
-				'depth'           => 0,
-				'walker'          => ''
-			);
-
-			wp_nav_menu( $socialmenu );
-
-			?>
-		</nav>
+				?>
+			</nav>
+		</div>
 	</header>
+
+	<main class="main centered">

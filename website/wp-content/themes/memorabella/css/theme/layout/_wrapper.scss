@@ -1,3 +1,21 @@
 // --------------------------------------
 // Wrapper
 // --------------------------------------
+
+.main {
+	width: 100%;
+	max-width: 900px;
+}
+
+.centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p, img { margin-bottom: 20px; }
+
+img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+}

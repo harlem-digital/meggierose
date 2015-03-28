@@ -13,7 +13,7 @@ html {
 }
 
 /* line 15, app/base/_reset.scss */
-article, aside, footer, header, nav, section, figure {
+main, section, article, aside, footer, header, nav, figure {
   display: block;
   position: relative;
 }
@@ -46,4 +46,91 @@ a {
     font-family: "Genericons";
     src: url("../fonts/Genericons.svg#Genericons") format("svg");
   }
+}
+/* line 6, theme/layout/_header.scss */
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 13, theme/layout/_header.scss */
+h1 {
+  position: relative;
+  width: 446px;
+  height: 78px;
+  top: 105px;
+  margin: 0 auto;
+  background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-logo.png) center bottom no-repeat;
+  color: transparent;
+  overflow: hidden;
+}
+
+/* line 24, theme/layout/_header.scss */
+.social-nav {
+  position: absolute;
+  width: 100%;
+  padding: 8px 0;
+  top: 0;
+  left: 0;
+  background: #000;
+}
+/* line 32, theme/layout/_header.scss */
+.social-nav .icon {
+  width: 17px;
+  height: 17px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+  vertical-align: top;
+}
+
+/* line 40, theme/layout/_header.scss */
+.icon a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-sprite-desktop.png) no-repeat;
+  color: transparent;
+  overflow: hidden;
+}
+
+/* line 49, theme/layout/_header.scss */
+.icon-search a {
+  background-position: -60px -23px;
+}
+
+/* line 50, theme/layout/_header.scss */
+.icon-instagram a {
+  background-position: -91px -23px;
+}
+
+/* line 51, theme/layout/_header.scss */
+.icon-pinterest a {
+  background-position: -122px -23px;
+}
+
+/* line 5, theme/layout/_wrapper.scss */
+.main {
+  width: 100%;
+  max-width: 900px;
+}
+
+/* line 10, theme/layout/_wrapper.scss */
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 15, theme/layout/_wrapper.scss */
+p, img {
+  margin-bottom: 20px;
+}
+
+/* line 17, theme/layout/_wrapper.scss */
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }
