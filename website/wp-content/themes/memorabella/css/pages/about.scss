@@ -10,10 +10,10 @@ article {
 	margin-right: 30px;
 	margin-bottom: 50px;
 
-	@include breakpoint(small) {
+	/*@include breakpoint(small) {
 		float: none;
 		width: 100%;
-	}
+	}*/
 }
 section {
 	p {

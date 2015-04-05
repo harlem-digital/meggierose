@@ -20,10 +20,10 @@ function page_specific_css() {
         wp_register_style( 'home_css', get_template_directory_uri().'/css/pages/home.css' );
         wp_enqueue_style( 'home_css' );
     }*/
-    /*if ( is_page( 'about' ) ) {
+    if ( is_page( 'about' ) ) {
         wp_register_style( 'about_css', get_template_directory_uri().'/css/pages/about.css' );
         wp_enqueue_style( 'about_css' );
-    }*/
+    }
 
 }
 add_action( 'wp_enqueue_scripts', 'page_specific_css' );
