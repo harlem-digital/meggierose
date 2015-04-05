@@ -1,0 +1,24 @@
+@import "app/base/core";
+@import "theme/base/core";
+
+body {
+	margin: 0;
+}
+article {
+	float: left;
+	width: 60%;
+	margin-right: 30px;
+	margin-bottom: 50px;
+
+	@include breakpoint(small) {
+		float: none;
+		width: 100%;
+	}
+}
+section {
+	p {
+		font-family: Arial, sans-serif;
+		font-size: 14px;
+		color: $gray-01;
+	}
+}
