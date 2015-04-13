@@ -4,11 +4,16 @@
 body {
 	margin: 0;
 }
-p {
+
+section {
 	margin: 0 auto;
-	text-transform: uppercase;
-	text-align: center;
-	color: $black-01;
-	font-weight: 700;
-	font-family: $arial;
+
+	p {
+		margin: 0 auto;
+		text-transform: uppercase;
+		text-align: center;
+		color: $black-01;
+		font-weight: 700;
+		font-family: $arial;
+	}
 }

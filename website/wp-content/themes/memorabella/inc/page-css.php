@@ -24,6 +24,10 @@ function page_specific_css() {
         wp_register_style( 'about_css', get_template_directory_uri().'/css/pages/about.css' );
         wp_enqueue_style( 'about_css' );
     }
+    if ( is_404() ) {
+        wp_register_style( '404_css', get_template_directory_uri().'/css/pages/404.css' );
+        wp_enqueue_style( '404_css' );
+    }
 
 }
 add_action( 'wp_enqueue_scripts', 'page_specific_css' );

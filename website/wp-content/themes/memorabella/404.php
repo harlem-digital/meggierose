@@ -10,9 +10,7 @@
 get_header(); ?>
 
 <section>
-		<p>BUMMER. I DIDN'T TAKE ANY PHOTOS OF THAT.<br>TRY SOMETHING ELSE!</p>
+	<p>BUMMER. I DIDN'T TAKE ANY PHOTOS OF THAT.<br>TRY SOMETHING ELSE!</p>
 </section>
-
-
 
 <?php get_footer(); ?>

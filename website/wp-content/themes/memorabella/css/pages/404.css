@@ -3,8 +3,12 @@ body {
   margin: 0;
 }
 
-/* line 7, 404.scss */
-p {
+/* line 8, 404.scss */
+section {
+  margin: 0 auto;
+}
+/* line 11, 404.scss */
+section p {
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
