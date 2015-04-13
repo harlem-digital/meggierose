@@ -35,7 +35,10 @@ h1 {
 	left: 0;
 	background: $black-01;
 
-	.menu { width: 900px; }
+	.menu {
+		max-width: 900px;
+		width: 90%;
+	}
 
 	.icon {
 		width: 17px;
@@ -84,7 +87,8 @@ h1 {
 
 #form {
 	position: absolute;
-	width: 900px;
+	max-width: 900px;
+	width: 90%;
 	top: 34px;
 	left: 50%;
 	opacity: 0;
@@ -92,6 +96,12 @@ h1 {
 
 	transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1),
 				transform 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
+
+	@include breakpoint(medium) { max-width: 700px; }
+	@include breakpoint(small) {
+		max-width: 100%;
+		width: 100%;
+	}
 }
 
 #form.open {
@@ -113,6 +123,9 @@ h1 {
 	background: $black-01;
 
 	&::placeholder { color: $gray-02; }
+
+	@include breakpoint(medium) { width: 539px; }
+	@include breakpoint(small) { width: 100%; }
 }
 
 .form-icon {
@@ -137,4 +150,12 @@ h1 {
 	background-position: -900px -131px;
 
 	&:hover { background-position: -900px -182px; }
+}
+
+.menu-button {
+	display: none;
+
+	@include breakpoint(small) {
+		display: block;
+	}
 }
