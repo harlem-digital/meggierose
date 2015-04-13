@@ -10,7 +10,7 @@ body {
 
 	a {
 		background: $black-01;
-	  	font-family: Arial;
+	  	font-family: $arial;
 	  	text-align: center;
 	  	padding: 5px 20px;
 	  	color: $white-01;
@@ -27,7 +27,7 @@ body {
 }
 .entry-content {
 	p {
-		font-family: Arial;
+		font-family: $arial;
 		font-size: 14px;
 		color: $gray-02;
 	}

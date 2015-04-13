@@ -11,7 +11,7 @@ body {
 /* line 11, blog.scss */
 .entry-title a {
   background: #000;
-  font-family: Arial;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   text-align: center;
   padding: 5px 20px;
   color: #fff;
@@ -30,7 +30,7 @@ body {
 
 /* line 29, blog.scss */
 .entry-content p {
-  font-family: Arial;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   color: #666;
 }

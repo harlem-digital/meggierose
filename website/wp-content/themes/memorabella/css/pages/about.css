@@ -20,7 +20,7 @@ article {
 
 /* line 19, about.scss */
 section p {
-  font-family: Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   color: #999;
 }
