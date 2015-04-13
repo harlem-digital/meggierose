@@ -4,3 +4,15 @@
 body {
 	margin: 0;
 }
+section {
+	margin: 0 auto;
+
+	p.notfound {
+		text-transform: uppercase;
+		text-align: center;
+		color: $black-01;
+		font-weight: 700;
+		font-family: $arial;
+		letter-spacing: 3px;
+	}
+}
