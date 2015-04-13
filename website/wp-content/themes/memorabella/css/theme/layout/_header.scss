@@ -15,6 +15,14 @@
 			text-transform: uppercase;
 		}
 	}
+
+	&[data-menu='open'] {
+
+		@include breakpoint(small) {
+			.social-nav,
+			.main-nav { display: block; }
+		}
+	}
 }
 
 h1 {
@@ -43,6 +51,7 @@ h1 {
 	background: $black-01;
 
 	@include breakpoint(small) {
+		display: none;
 		padding: 0;
 		position: relative;
 	}
@@ -98,6 +107,7 @@ h1 {
 	top: 224px;
 
 	@include breakpoint(small) {
+		display: none;
 		top: 0;
 		background: $black-01;
 	}
@@ -206,6 +216,15 @@ h1 {
 
 .menu-button {
 	display: none;
+	padding: 15px 0;
+	color: $gray-02;
+	font-family: $arial;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: $black-01;
 
 	@include breakpoint(small) {
 		display: block;

@@ -62,8 +62,15 @@ a {
     text-transform: uppercase;
   }
 }
+@media (max-width: 767px) {
+  /* line 22, theme/layout/_header.scss */
+  .header[data-menu='open'] .social-nav,
+  .header[data-menu='open'] .main-nav {
+    display: block;
+  }
+}
 
-/* line 20, theme/layout/_header.scss */
+/* line 28, theme/layout/_header.scss */
 h1 {
   position: relative;
   width: 446px;
@@ -72,7 +79,7 @@ h1 {
   margin: 0 auto;
   background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-logo.png) center bottom no-repeat;
 }
-/* line 28, theme/layout/_header.scss */
+/* line 36, theme/layout/_header.scss */
 h1 a {
   display: block;
   width: 100%;
@@ -81,7 +88,7 @@ h1 a {
   overflow: hidden;
 }
 
-/* line 37, theme/layout/_header.scss */
+/* line 45, theme/layout/_header.scss */
 .social-nav {
   position: absolute;
   width: 100%;
@@ -91,24 +98,25 @@ h1 a {
   background: #000;
 }
 @media (max-width: 767px) {
-  /* line 37, theme/layout/_header.scss */
+  /* line 45, theme/layout/_header.scss */
   .social-nav {
+    display: none;
     padding: 0;
     position: relative;
   }
 }
-/* line 50, theme/layout/_header.scss */
+/* line 59, theme/layout/_header.scss */
 .social-nav .menu {
   max-width: 900px;
   width: 90%;
 }
 @media (max-width: 767px) {
-  /* line 50, theme/layout/_header.scss */
+  /* line 59, theme/layout/_header.scss */
   .social-nav .menu {
     width: 100%;
   }
 }
-/* line 59, theme/layout/_header.scss */
+/* line 68, theme/layout/_header.scss */
 .social-nav .icon {
   width: 17px;
   height: 17px;
@@ -120,7 +128,7 @@ h1 a {
   vertical-align: top;
 }
 @media (max-width: 767px) {
-  /* line 59, theme/layout/_header.scss */
+  /* line 68, theme/layout/_header.scss */
   .social-nav .icon {
     width: 100%;
     height: auto;
@@ -128,7 +136,7 @@ h1 a {
   }
 }
 
-/* line 74, theme/layout/_header.scss */
+/* line 83, theme/layout/_header.scss */
 .icon a {
   display: block;
   width: 100%;
@@ -140,7 +148,7 @@ h1 a {
   overflow: hidden;
 }
 @media (max-width: 767px) {
-  /* line 74, theme/layout/_header.scss */
+  /* line 83, theme/layout/_header.scss */
   .icon a {
     padding: 15px 0;
     color: inherit;
@@ -148,35 +156,36 @@ h1 a {
   }
 }
 
-/* line 91, theme/layout/_header.scss */
+/* line 100, theme/layout/_header.scss */
 .icon-search a {
   background-position: -60px -23px;
 }
 
-/* line 92, theme/layout/_header.scss */
+/* line 101, theme/layout/_header.scss */
 .icon-instagram a {
   background-position: -91px -23px;
 }
 
-/* line 93, theme/layout/_header.scss */
+/* line 102, theme/layout/_header.scss */
 .icon-pinterest a {
   background-position: -122px -23px;
 }
 
-/* line 95, theme/layout/_header.scss */
+/* line 104, theme/layout/_header.scss */
 .main-nav {
   text-align: center;
   position: relative;
   top: 224px;
 }
 @media (max-width: 767px) {
-  /* line 95, theme/layout/_header.scss */
+  /* line 104, theme/layout/_header.scss */
   .main-nav {
+    display: none;
     top: 0;
     background: #000;
   }
 }
-/* line 105, theme/layout/_header.scss */
+/* line 115, theme/layout/_header.scss */
 .main-nav li {
   margin: 0 16px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -190,23 +199,23 @@ h1 a {
   vertical-align: top;
 }
 @media (max-width: 767px) {
-  /* line 105, theme/layout/_header.scss */
+  /* line 115, theme/layout/_header.scss */
   .main-nav li {
     margin: 0;
     width: 100%;
   }
 }
-/* line 119, theme/layout/_header.scss */
+/* line 129, theme/layout/_header.scss */
 .main-nav li a {
   color: #999;
   text-decoration: none;
 }
-/* line 123, theme/layout/_header.scss */
+/* line 133, theme/layout/_header.scss */
 .main-nav li a:hover {
   color: #000;
 }
 @media (max-width: 767px) {
-  /* line 119, theme/layout/_header.scss */
+  /* line 129, theme/layout/_header.scss */
   .main-nav li a {
     display: block;
     padding: 15px 0;
@@ -216,13 +225,13 @@ h1 a {
     font-weight: normal;
     text-transform: uppercase;
   }
-  /* line 134, theme/layout/_header.scss */
+  /* line 144, theme/layout/_header.scss */
   .main-nav li a:hover {
     color: #666;
   }
 }
 
-/* line 140, theme/layout/_header.scss */
+/* line 150, theme/layout/_header.scss */
 #form {
   position: absolute;
   max-width: 900px;
@@ -237,20 +246,20 @@ h1 a {
           transition: opacity 0.2s cubic-bezier(0.28, 0.11, 0.32, 1), transform 0.2s cubic-bezier(0.28, 0.11, 0.32, 1);
 }
 @media (max-width: 1000px) {
-  /* line 140, theme/layout/_header.scss */
+  /* line 150, theme/layout/_header.scss */
   #form {
     max-width: 700px;
   }
 }
 @media (max-width: 767px) {
-  /* line 140, theme/layout/_header.scss */
+  /* line 150, theme/layout/_header.scss */
   #form {
     max-width: 100%;
     width: 100%;
   }
 }
 
-/* line 159, theme/layout/_header.scss */
+/* line 169, theme/layout/_header.scss */
 #form.open {
   opacity: 1;
   -webkit-transform: translate(-50%, 0);
@@ -258,7 +267,7 @@ h1 a {
           transform: translate(-50%, 0);
 }
 
-/* line 164, theme/layout/_header.scss */
+/* line 174, theme/layout/_header.scss */
 .form-search {
   float: left;
   width: 739px;
@@ -272,7 +281,7 @@ h1 a {
   outline: 0;
   background: #000;
 }
-/* line 177, theme/layout/_header.scss */
+/* line 187, theme/layout/_header.scss */
 .form-search::-webkit-input-placeholder {
   color: #666;
 }
@@ -286,19 +295,19 @@ h1 a {
   color: #666;
 }
 @media (max-width: 1000px) {
-  /* line 164, theme/layout/_header.scss */
+  /* line 174, theme/layout/_header.scss */
   .form-search {
     width: 539px;
   }
 }
 @media (max-width: 767px) {
-  /* line 164, theme/layout/_header.scss */
+  /* line 174, theme/layout/_header.scss */
   .form-search {
     width: 100%;
   }
 }
 
-/* line 183, theme/layout/_header.scss */
+/* line 193, theme/layout/_header.scss */
 .form-icon {
   display: block;
   float: left;
@@ -307,34 +316,43 @@ h1 a {
   background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-sprite-desktop.png) #000 no-repeat;
 }
 
-/* line 191, theme/layout/_header.scss */
+/* line 201, theme/layout/_header.scss */
 .form-search-icon {
   border: 0;
   outline: 0;
   cursor: pointer;
   background-position: -837px -131px;
 }
-/* line 197, theme/layout/_header.scss */
+/* line 207, theme/layout/_header.scss */
 .form-search-icon:hover {
   background-position: -837px -182px;
 }
 
-/* line 200, theme/layout/_header.scss */
+/* line 210, theme/layout/_header.scss */
 .form-cancel-icon {
   margin-left: 1px;
   background-position: -900px -131px;
 }
-/* line 204, theme/layout/_header.scss */
+/* line 214, theme/layout/_header.scss */
 .form-cancel-icon:hover {
   background-position: -900px -182px;
 }
 
-/* line 207, theme/layout/_header.scss */
+/* line 217, theme/layout/_header.scss */
 .menu-button {
   display: none;
+  padding: 15px 0;
+  color: #666;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #000;
 }
 @media (max-width: 767px) {
-  /* line 207, theme/layout/_header.scss */
+  /* line 217, theme/layout/_header.scss */
   .menu-button {
     display: block;
   }
