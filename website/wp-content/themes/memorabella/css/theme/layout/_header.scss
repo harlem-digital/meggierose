@@ -43,6 +43,7 @@ h1 {
 	background: $black-01;
 
 	@include breakpoint(small) {
+		padding: 0;
 		position: relative;
 	}
 
