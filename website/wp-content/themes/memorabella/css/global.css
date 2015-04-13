@@ -167,7 +167,7 @@ h1 a {
 .main-nav {
   text-align: center;
   position: relative;
-  top: 135px;
+  top: 224px;
 }
 @media (max-width: 767px) {
   /* line 95, theme/layout/_header.scss */
