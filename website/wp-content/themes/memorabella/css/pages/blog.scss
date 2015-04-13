@@ -4,3 +4,29 @@
 body {
 	margin: 0;
 }
+.entry-title {
+	text-align: center;
+
+	a {
+		background: #000;
+	  	font-family: Arial;
+	  	text-align: center;
+	  	padding: 5px 20px;
+	  	color: #fff;
+	  	letter-spacing: 3px;
+	  	text-transform: uppercase;
+	  	text-decoration: none;
+	}
+}
+.entry-content {
+	p {
+		font-family: Arial;
+		font-size: 14px;
+		color: #666666;
+	}
+}
+.post {
+	padding-bottom: 50px;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 50px;
+}
