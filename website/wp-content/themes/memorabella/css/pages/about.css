@@ -1,73 +1,26 @@
-/*
-Error: Undefined mixin 'breakpoint'.
-        on line 13 of website/wp-content/themes/memorabella/css/pages/about.scss, in `breakpoint'
-        from line 13 of website/wp-content/themes/memorabella/css/pages/about.scss
+/* line 4, about.scss */
+body {
+  margin: 0;
+}
 
-8: 	float: left;
-9: 	width: 60%;
-10: 	margin-right: 30px;
-11: 	margin-bottom: 50px;
-12: 
-13: 	@include breakpoint(small) {
-14: 		float: none;
-15: 		width: 100%;
-16: 	}
-17: }
-18: section {
+/* line 7, about.scss */
+article {
+  float: left;
+  width: 60%;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+@media (max-width: 767px) {
+  /* line 7, about.scss */
+  article {
+    float: none;
+    width: 100%;
+  }
+}
 
-Backtrace:
-website/wp-content/themes/memorabella/css/pages/about.scss:13:in `breakpoint'
-website/wp-content/themes/memorabella/css/pages/about.scss:13
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:98:in `block in with_mixin'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:98:in `with_mixin'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `map'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-C:/Ruby21/bin/sass:23:in `load'
-C:/Ruby21/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined mixin 'breakpoint'.\A         on line 13 of website/wp-content/themes/memorabella/css/pages/about.scss, in `breakpoint'\A         from line 13 of website/wp-content/themes/memorabella/css/pages/about.scss\A \A 8: 	float: left;\A 9: 	width: 60%;\A 10: 	margin-right: 30px;\A 11: 	margin-bottom: 50px;\A 12: \A 13: 	@include breakpoint(small) {\A 14: 		float: none;\A 15: 		width: 100%;\A 16: 	}\A 17: }\A 18: section {"; }
+/* line 19, about.scss */
+section p {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #999;
+}

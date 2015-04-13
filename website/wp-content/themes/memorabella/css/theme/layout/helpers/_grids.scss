@@ -2,5 +2,5 @@
 // Grid System
 // --------------------------------------
 
-//@include generate-grid-system($-breakpoints);
-//@include grid-system-helpers();
+@include generate-grid-system($-breakpoints);
+@include grid-system-helpers();
