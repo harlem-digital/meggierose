@@ -25,7 +25,6 @@
 <body <?php body_class(); ?>>
 
 	<header class="header">
-		<h1><a href="/">Memorabella</a></h1>
 		<div class="navigation">
 			<nav class="social-nav">
 				<?php
@@ -85,6 +84,7 @@
 			</nav>
 			<a href="#" class="menu-button">Menu</a>
 		</div>
+		<h1><a href="/">Memorabella</a></h1>
 	</header>
 
 	<main class="main centered">
