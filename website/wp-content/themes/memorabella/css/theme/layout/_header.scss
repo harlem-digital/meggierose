@@ -33,6 +33,15 @@ h1 {
 	margin: 0 auto;
 	background: url(#{$path}/images/memorabella-logo.png) center bottom no-repeat;
 
+	@include breakpoint(small) {
+		width: 245px;
+		height: 43px;
+		top: 50px;
+		background: url(#{$path}/images/memorabella-logo-mobile.png) center bottom no-repeat;
+
+		@include background-scale();
+	}
+
 	a {
 		display: block;
 		width: 100%;
