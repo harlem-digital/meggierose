@@ -66,7 +66,7 @@
 					'container'       => '',
 					'container_class' => '',
 					'container_id'    => '',
-					'menu_class'      => 'menu large_15 col',
+					'menu_class'      => 'menu large_15 col centered',
 					'menu_id'         => '',
 					'echo'            => true,
 					'fallback_cb'     => 'wp_page_menu',
