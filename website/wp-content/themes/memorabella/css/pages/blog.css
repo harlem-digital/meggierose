@@ -23,12 +23,12 @@ body {
 .entry-content p {
   font-family: Arial;
   font-size: 14px;
-  color: #666666;
+  color: #999;
 }
 
 /* line 28, blog.scss */
 .post {
   padding-bottom: 50px;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #666;
   margin-bottom: 50px;
 }

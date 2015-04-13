@@ -8,11 +8,11 @@ body {
 	text-align: center;
 
 	a {
-		background: #000;
+		background: $black-01;
 	  	font-family: Arial;
 	  	text-align: center;
 	  	padding: 5px 20px;
-	  	color: #fff;
+	  	color: $white-01;
 	  	letter-spacing: 3px;
 	  	text-transform: uppercase;
 	  	text-decoration: none;
@@ -22,11 +22,11 @@ body {
 	p {
 		font-family: Arial;
 		font-size: 14px;
-		color: #666666;
+		color: $gray-01;
 	}
 }
 .post {
 	padding-bottom: 50px;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid $gray-02;
 	margin-bottom: 50px;
 }
