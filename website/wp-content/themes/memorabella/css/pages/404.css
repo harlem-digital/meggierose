@@ -1,40 +1,14 @@
-/*
-Error: Invalid CSS after "	margin: 0;": expected "}", was ""
-        on line 6 of website/wp-content/themes/memorabella/css/pages/404.scss
+/* line 4, 404.scss */
+body {
+  margin: 0;
+}
 
-1: @import "app/base/core";
-2: @import "theme/base/core";
-3: 
-4: body {
-5: 	margin: 0;
-
-Backtrace:
-website/wp-content/themes/memorabella/css/pages/404.scss:6
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1165:in `expected'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1101:in `expected'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:1096:in `tok!'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:643:in `block'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:635:in `ruleset'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:660:in `block_child'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:653:in `block_contents'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:393:in `_to_tree'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/engine.rb:268:in `render'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
-C:/Ruby21/bin/sass:23:in `load'
-C:/Ruby21/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	margin: 0;\": expected \"}\", was \"\"\A         on line 6 of website/wp-content/themes/memorabella/css/pages/404.scss\A \A 1: @import \"app/base/core\";\A 2: @import \"theme/base/core\";\A 3: \A 4: body {\A 5: 	margin: 0;"; }
+/* line 7, 404.scss */
+p {
+  margin: 0 auto;
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
