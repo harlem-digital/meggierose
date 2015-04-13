@@ -14,9 +14,7 @@ get_header(); ?>
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-				<h1 class="page-title"><?php printf( __( 'Search Results for: %s', 'twentyfifteen' ), get_search_query() ); ?></h1>
-			</header><!-- .page-header -->
+			
 
 			<?php
 			// Start the loop.
@@ -41,11 +39,12 @@ get_header(); ?>
 			) );
 
 		// If no content, include the "No posts found" template.
-		else :
-			get_template_part( 'content', 'none' );
+		else : ?>
+			<section>
+				<p class="notfound">BUMMER. I DIDN'T TAKE ANY PHOTOS OF THAT.<br>TRY SOMETHING ELSE!</p>
+			</section>
 
-		endif;
-		?>
+		<?php endif; ?>
 
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->

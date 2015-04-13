@@ -28,6 +28,10 @@ function page_specific_css() {
         wp_register_style( '404_css', get_template_directory_uri().'/css/pages/404.css' );
         wp_enqueue_style( '404_css' );
     }
+    if ( is_search() ) {
+        wp_register_style( 'search_css', get_template_directory_uri().'/css/pages/search.css' );
+        wp_enqueue_style( 'search_css' );
+    }
 
 }
 add_action( 'wp_enqueue_scripts', 'page_specific_css' );
