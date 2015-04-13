@@ -7,6 +7,13 @@
 		margin: 0 auto;
 		padding: 0;
 		list-style: none;
+
+		@include breakpoint(small) {
+			color: $gray-02;
+			font-family: $arial;
+			font-size: 12px;
+			text-transform: uppercase;
+		}
 	}
 }
 
@@ -35,9 +42,17 @@ h1 {
 	left: 0;
 	background: $black-01;
 
+	@include breakpoint(small) {
+		position: relative;
+	}
+
 	.menu {
 		max-width: 900px;
 		width: 90%;
+
+		@include breakpoint(small) {
+			width: 100%;
+		}
 	}
 
 	.icon {
@@ -49,6 +64,7 @@ h1 {
 
 		@include breakpoint(small) {
 			width: 100%;
+			height: auto;
 			margin: 0;
 		}
 	}
@@ -65,6 +81,7 @@ h1 {
 	@include image-replace();
 
 	@include breakpoint(small) {
+		padding: 15px 0;
 		color: inherit;
 		background: none;
 	}
@@ -79,6 +96,11 @@ h1 {
 	position: relative;
 	top: 135px;
 
+	@include breakpoint(small) {
+		top: 0;
+		background: $black-01;
+	}
+
 	li {
 		margin: 0 16px;
 		font-family: $arial;
@@ -88,11 +110,28 @@ h1 {
 		
 		@include inline-block;
 
+		@include breakpoint(small) {
+			margin: 0;
+			width: 100%;
+		}
+
 		a {
 			color: $gray-01;
 			text-decoration: none;
 
 			&:hover { color: $black-01; }
+
+			@include breakpoint(small) {
+				display: block;
+				padding: 15px 0;
+				color: $gray-02;
+				font-family: $arial;
+				font-size: 12px;
+				font-weight: normal;
+				text-transform: uppercase;
+
+				&:hover { color: $gray-02; }
+			}
 		}
 	}
 }
