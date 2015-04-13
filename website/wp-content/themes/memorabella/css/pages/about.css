@@ -9,10 +9,13 @@ article {
   width: 60%;
   margin-right: 30px;
   margin-bottom: 50px;
-  /*@include breakpoint(small) {
-  	float: none;
-  	width: 100%;
-  }*/
+}
+@media (max-width: 767px) {
+  /* line 7, about.scss */
+  article {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* line 19, about.scss */

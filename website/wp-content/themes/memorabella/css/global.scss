@@ -10,13 +10,6 @@
 @import "app/base/reset";
 @import "app/base/font-icons/fonts";
 
-// --------------------
-// Layout
-// --------------------
-
-@import "app/layout/breakpoints";
-@import "app/layout/grids";
-
 
 
 // --------------------------------------
@@ -36,3 +29,4 @@
 @import "theme/layout/header";
 @import "theme/layout/wrapper";
 @import "theme/layout/helpers/grids";
+@import "theme/layout/helpers/breakpoints";
