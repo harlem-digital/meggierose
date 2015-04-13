@@ -6,8 +6,9 @@ body {
 /* line 7, blog.scss */
 .entry-title {
   text-align: center;
+  margin-bottom: 15px;
 }
-/* line 10, blog.scss */
+/* line 11, blog.scss */
 .entry-title a {
   background: #000;
   font-family: Arial;
@@ -17,16 +18,24 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 12px;
 }
 
-/* line 22, blog.scss */
+/* line 23, blog.scss */
+.entry-time {
+  font-size: 12px;
+  text-align: center;
+  color: #ccc;
+}
+
+/* line 29, blog.scss */
 .entry-content p {
   font-family: Arial;
   font-size: 14px;
   color: #999;
 }
 
-/* line 28, blog.scss */
+/* line 35, blog.scss */
 .post {
   padding-bottom: 50px;
   border-bottom: 1px solid #666;

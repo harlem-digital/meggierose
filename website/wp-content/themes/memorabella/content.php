@@ -24,6 +24,7 @@
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
+		<h2 class="entry-time">{&nbsp;<?php the_time('F j, Y'); ?>&nbsp;}</h2>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

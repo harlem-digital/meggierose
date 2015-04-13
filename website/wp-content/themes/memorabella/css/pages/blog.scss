@@ -6,6 +6,7 @@ body {
 }
 .entry-title {
 	text-align: center;
+	margin-bottom: 15px;
 
 	a {
 		background: $black-01;
@@ -16,7 +17,13 @@ body {
 	  	letter-spacing: 3px;
 	  	text-transform: uppercase;
 	  	text-decoration: none;
+	  	font-size: 12px;
 	}
+}
+.entry-time {
+	font-size: 12px;
+	text-align: center;
+	color: $gray-03;
 }
 .entry-content {
 	p {
