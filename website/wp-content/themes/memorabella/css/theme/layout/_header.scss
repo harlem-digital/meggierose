@@ -197,7 +197,7 @@ h1 {
 .form-search {
 	float: left;
 	width: 739px;
-	height: 44px;
+	height: 49px;
 	padding: 0 20px;
 	color: $white-01;
 	font-family: $arial;
@@ -213,6 +213,7 @@ h1 {
 	@include breakpoint(small) {
 		width: 100%;
 		font-size: 12px;
+		height: 44px;
 	}
 }
 
