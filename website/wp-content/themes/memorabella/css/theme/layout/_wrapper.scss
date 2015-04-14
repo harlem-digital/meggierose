@@ -22,7 +22,11 @@ body .main {
 	margin-right: auto;
 }
 
-p, img { margin-bottom: 20px; }
+p, img {
+	margin-bottom: 20px;
+
+	@include breakpoint(small) { margin: 0 0 10px; }
+}
 
 img {
 	width: auto;
