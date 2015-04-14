@@ -19,12 +19,12 @@
 	<header class="entry-header">
 		<?php
 			if ( is_single() ) :
-				the_title( '<h1 class="entry-title">', '</h1>' );
+				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			else :
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
 			endif;
 		?>
-		<h2 class="entry-time">{&nbsp;<?php the_time('F j, Y'); ?>&nbsp;}</h2>
+		<h3 class="entry-time">{&nbsp;<?php the_time('F j, Y'); ?>&nbsp;}</h3>
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

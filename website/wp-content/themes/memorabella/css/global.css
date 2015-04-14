@@ -396,277 +396,316 @@ img {
   max-width: 100%;
 }
 
+/* line 26, theme/layout/_wrapper.scss */
+.entry-title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* line 30, theme/layout/_wrapper.scss */
+.entry-title a {
+  background: #000;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  text-align: center;
+  padding: 5px 20px;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* line 42, theme/layout/_wrapper.scss */
+.entry-time {
+  font-size: 12px;
+  text-align: center;
+  color: #ccc;
+}
+
+/* line 48, theme/layout/_wrapper.scss */
+.entry-content p {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 14px;
+  color: #666;
+}
+
+/* line 54, theme/layout/_wrapper.scss */
+.post {
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 50px;
+}
+
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_1 {
     width: 6.6666667%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_1 {
     width: 6.6666667%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_1 {
     width: 6.6666667%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_2 {
     width: 13.3333333%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_2 {
     width: 13.3333333%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_2 {
     width: 13.3333333%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_3 {
     width: 20%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_3 {
     width: 20%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_3 {
     width: 20%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_4 {
     width: 26.6666667%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_4 {
     width: 26.6666667%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_4 {
     width: 26.6666667%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_5 {
     width: 33.3333333%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_5 {
     width: 33.3333333%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_5 {
     width: 33.3333333%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_6 {
     width: 40%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_6 {
     width: 40%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_6 {
     width: 40%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_7 {
     width: 46.6666667%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_7 {
     width: 46.6666667%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_7 {
     width: 46.6666667%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_8 {
     width: 53.3333333%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_8 {
     width: 53.3333333%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_8 {
     width: 53.3333333%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_9 {
     width: 60%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_9 {
     width: 60%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_9 {
     width: 60%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_10 {
     width: 66.6666667%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_10 {
     width: 66.6666667%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_10 {
     width: 66.6666667%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_11 {
     width: 73.3333333%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_11 {
     width: 73.3333333%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_11 {
     width: 73.3333333%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_12 {
     width: 80%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_12 {
     width: 80%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_12 {
     width: 80%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_13 {
     width: 86.6666667%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_13 {
     width: 86.6666667%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_13 {
     width: 86.6666667%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_14 {
     width: 93.3333333%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_14 {
     width: 93.3333333%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_14 {
     width: 93.3333333%;
   }
 }
 @media (min-width: 1001px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_15 {
     width: 100%;
   }
 }
 @media (max-width: 1000px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .medium_15 {
     width: 100%;
   }
 }
 @media (max-width: 767px) {
-  /* line 14, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .small_15 {
     width: 100%;
   }
 }
-/* line 28, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+/* line 28, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
 .main {
   width: 100%;
   max-width: 1200px;
@@ -674,50 +713,50 @@ img {
   margin-right: auto;
 }
 
-/* line 35, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+/* line 35, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
 .row {
   margin-bottom: 40px;
 }
-/* line 7, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/helpers/_clear-fix.scss */
+/* line 7, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/helpers/_clear-fix.scss */
 .row:before, .row:after {
   content: " ";
   display: table;
 }
-/* line 13, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/helpers/_clear-fix.scss */
+/* line 13, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/helpers/_clear-fix.scss */
 .row:after {
   clear: both;
 }
 
-/* line 40, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+/* line 40, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
 .col {
   position: relative;
   float: left;
   margin: 0 0%;
 }
 
-/* line 46, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+/* line 46, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
 .pull-right {
   float: right;
 }
 @media (max-width: 767px) {
-  /* line 46, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 46, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .pull-right {
     float: none;
   }
 }
 
-/* line 51, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+/* line 51, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
 .pull-left {
   float: left;
 }
 @media (max-width: 767px) {
-  /* line 51, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+  /* line 51, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .pull-left {
     float: none;
   }
 }
 
-/* line 56, /Applications/XAMPP/xamppfiles/htdocs/websites/whoiskenjackson/github/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
+/* line 56, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
 .centered {
   float: none;
   margin-left: auto;

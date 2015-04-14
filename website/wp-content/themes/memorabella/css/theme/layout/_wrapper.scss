@@ -23,3 +23,36 @@ img {
 	height: auto;
 	max-width: 100%;
 }
+.entry-title {
+	text-align: center;
+	margin-bottom: 15px;
+
+	a {
+		background: $black-01;
+	  	font-family: $arial;
+	  	text-align: center;
+	  	padding: 5px 20px;
+	  	color: $white-01;
+	  	letter-spacing: 3px;
+	  	text-transform: uppercase;
+	  	text-decoration: none;
+	  	font-size: 12px;
+	}
+}
+.entry-time {
+	font-size: 12px;
+	text-align: center;
+	color: $gray-04;
+}
+.entry-content {
+	p {
+		font-family: $arial;
+		font-size: 14px;
+		color: $gray-02;
+	}
+}
+.post {
+	padding-bottom: 50px;
+	border-bottom: 1px solid $gray-03;
+	margin-bottom: 50px;
+}

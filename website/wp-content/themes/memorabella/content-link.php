@@ -16,7 +16,7 @@
 	<header class="entry-header">
 		<?php
 			if ( is_single() ) :
-				the_title( sprintf( '<h1 class="entry-title"><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></h1>' );
+				the_title( sprintf( '<h2 class="entry-title"><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></h2>' );
 			else :
 				the_title( sprintf( '<h2 class="entry-title"><a href="%s">', esc_url( twentyfifteen_get_link_url() ) ), '</a></h2>' );
 			endif;
