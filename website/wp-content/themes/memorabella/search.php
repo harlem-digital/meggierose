@@ -32,8 +32,8 @@ get_header(); ?>
 			endwhile; ?>
 
 			<div class="pagination">
-				<span class="prev">&#8592;&nbsp;<?php next_posts_link( 'Previous' ); ?></span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-				<span class="next"><?php previous_posts_link( 'Next' ); ?>&nbsp;&#8594;</span>
+				<span class="prev"><?php next_posts_link( '&#8592;&nbsp;Previous' ); ?></span>
+				<span class="next"><?php previous_posts_link( '&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Next &nbsp;&#8594;' ); ?></span>
 			</div>
 
 		<?php else : ?>
