@@ -9,6 +9,11 @@
 	top: 195px;
 	border-top: 1px solid $gray-03;
   	padding-top: 50px;
+
+  	@include breakpoint(small) {
+  		top: 85px;
+  		padding-top: 0;
+  	}
 }
 
 .centered {

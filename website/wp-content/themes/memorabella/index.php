@@ -40,18 +40,11 @@ get_header(); ?>
 
 			// End the loop.
 			endwhile; ?>
-
-<<<<<<< HEAD
+			
 			<div class="pagination">
 				<span class="prev">&#8592;&nbsp;<?php next_posts_link( 'Previous' ); ?></span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 				<span class="next"><?php previous_posts_link( 'Next' ); ?>&nbsp;&#8594;</span>
 			</div>
-=======
-			<div class="nav-previous alignleft"><?php next_posts_link( 'Older posts' ); ?></div>
-			<div class="nav-next alignright"><?php previous_posts_link( 'Newer posts' ); ?></div>
-
-			<?php
->>>>>>> f3ff39b2bd0ee2616396d7442f1b8d12c7bb3ca3
 
 		<?php else :
 			get_template_part( 'content', 'none' );
