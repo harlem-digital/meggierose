@@ -328,10 +328,11 @@ h1 a {
   /* line 194, theme/layout/_header.scss */
   .form-search {
     width: 100%;
+    font-size: 12px;
   }
 }
 
-/* line 213, theme/layout/_header.scss */
+/* line 216, theme/layout/_header.scss */
 .form-icon {
   display: block;
   float: left;
@@ -340,42 +341,51 @@ h1 a {
   background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-sprite-desktop.png) #000 no-repeat;
 }
 
-/* line 221, theme/layout/_header.scss */
+/* line 224, theme/layout/_header.scss */
 .form-search-icon {
   border: 0;
   outline: 0;
   cursor: pointer;
   background-position: -837px -131px;
 }
-/* line 227, theme/layout/_header.scss */
+/* line 230, theme/layout/_header.scss */
 .form-search-icon:hover {
   background-position: -837px -182px;
 }
 @media (max-width: 767px) {
-  /* line 221, theme/layout/_header.scss */
+  /* line 224, theme/layout/_header.scss */
   .form-search-icon {
     position: absolute;
-    right: 0;
+    top: 15px;
+    right: 10px;
+    width: 15px;
+    height: 15px;
+    background: url(/memorabella/wp-content/themes/memorabella/images/memorabella-search-icon-mobile.png) center center no-repeat;
+    background-size: 100% auto;
+  }
+  /* line 241, theme/layout/_header.scss */
+  .form-search-icon:hover {
+    background-position: center center;
   }
 }
 
-/* line 235, theme/layout/_header.scss */
+/* line 245, theme/layout/_header.scss */
 .form-cancel-icon {
   margin-left: 1px;
   background-position: -900px -131px;
 }
-/* line 239, theme/layout/_header.scss */
+/* line 249, theme/layout/_header.scss */
 .form-cancel-icon:hover {
   background-position: -900px -182px;
 }
 @media (max-width: 767px) {
-  /* line 235, theme/layout/_header.scss */
+  /* line 245, theme/layout/_header.scss */
   .form-cancel-icon {
     display: none;
   }
 }
 
-/* line 244, theme/layout/_header.scss */
+/* line 254, theme/layout/_header.scss */
 .menu-button {
   display: none;
   padding: 15px 0;
@@ -389,7 +399,7 @@ h1 a {
   background: #000;
 }
 @media (max-width: 767px) {
-  /* line 244, theme/layout/_header.scss */
+  /* line 254, theme/layout/_header.scss */
   .menu-button {
     display: block;
   }
