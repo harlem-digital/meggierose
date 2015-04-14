@@ -406,7 +406,7 @@ h1 a {
 }
 
 /* line 5, theme/layout/_wrapper.scss */
-.main {
+body .main {
   position: relative;
   width: 96%;
   max-width: 900px;
@@ -416,7 +416,7 @@ h1 a {
 }
 @media (max-width: 767px) {
   /* line 5, theme/layout/_wrapper.scss */
-  .main {
+  body .main {
     top: 85px;
     padding-top: 0;
   }
@@ -438,14 +438,16 @@ img {
   width: auto;
   height: auto;
   max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* line 31, theme/layout/_wrapper.scss */
+/* line 33, theme/layout/_wrapper.scss */
 .entry-title {
   text-align: center;
   margin-bottom: 15px;
 }
-/* line 35, theme/layout/_wrapper.scss */
+/* line 37, theme/layout/_wrapper.scss */
 .entry-title a {
   background: #000;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -458,33 +460,33 @@ img {
   font-size: 12px;
 }
 
-/* line 47, theme/layout/_wrapper.scss */
+/* line 49, theme/layout/_wrapper.scss */
 .entry-time {
   font-size: 12px;
   text-align: center;
   color: #ccc;
 }
 
-/* line 53, theme/layout/_wrapper.scss */
+/* line 55, theme/layout/_wrapper.scss */
 .entry-content p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;
   color: #666;
 }
 
-/* line 59, theme/layout/_wrapper.scss */
+/* line 61, theme/layout/_wrapper.scss */
 .post {
   padding-bottom: 50px;
   border-bottom: 1px solid #e0e0e0;
   margin-bottom: 50px;
 }
 
-/* line 64, theme/layout/_wrapper.scss */
+/* line 66, theme/layout/_wrapper.scss */
 .post-navigation {
   text-align: center;
 }
 
-/* line 67, theme/layout/_wrapper.scss */
+/* line 69, theme/layout/_wrapper.scss */
 .pagination {
   text-align: center;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -492,7 +494,7 @@ img {
   color: #e0e0e0;
   font-size: 30px;
 }
-/* line 74, theme/layout/_wrapper.scss */
+/* line 76, theme/layout/_wrapper.scss */
 .pagination a {
   color: #000;
   text-decoration: none;
@@ -500,7 +502,7 @@ img {
   font-size: 20px;
   font-weight: 700;
 }
-/* line 82, theme/layout/_wrapper.scss */
+/* line 84, theme/layout/_wrapper.scss */
 .pagination .prev, .pagination .next {
   color: #000;
 }
