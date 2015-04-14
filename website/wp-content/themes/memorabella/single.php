@@ -21,20 +21,10 @@ get_header(); ?>
 			 * use this in a child theme, then include a file called called content-___.php
 			 * (where ___ is the post format) and that will be used instead.
 			 */
-			get_template_part( 'content', get_post_format() );
+			get_template_part( 'content', get_post_format() ); ?>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif; ?>
 
-			<div class="pagination">
-				<span class="prev"><?php next_posts_link( '&#8592;&nbsp;Previous' ); ?></span>
-				<span class="next"><?php previous_posts_link( '&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Next &nbsp;&#8594;' ); ?></span>
-			</div>
-
-		<?php endwhile;
-		?>
+		<?php endwhile; ?>
 
 		</main><!-- .site-main -->
 	</div><!-- .content-area -->

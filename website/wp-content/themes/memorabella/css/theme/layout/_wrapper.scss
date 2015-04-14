@@ -2,13 +2,19 @@
 // Wrapper
 // --------------------------------------
 
-.main {
+body .main {
 	position: relative;
 	width: 96%;
 	max-width: 900px;
 	top: 195px;
 	border-top: 1px solid $gray-03;
   	padding-top: 50px;
+
+  	@include breakpoint(small) {
+  		top: 80px;
+  		padding-top: 0;
+  		border-top: 0;
+  	}
 }
 
 .centered {
@@ -16,16 +22,27 @@
 	margin-right: auto;
 }
 
-p, img { margin-bottom: 20px; }
+p, img {
+	margin-bottom: 20px;
+
+	@include breakpoint(small) { margin: 0 0 10px; }
+}
 
 img {
 	width: auto;
 	height: auto;
 	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
+
 .entry-title {
 	text-align: center;
-	margin-bottom: 15px;
+	margin: 0 0 15px;
+
+	@include breakpoint(small) {
+		margin: 0 0 10px;
+	}
 
 	a {
 		background: $black-01;
@@ -37,24 +54,39 @@ img {
 	  	text-transform: uppercase;
 	  	text-decoration: none;
 	  	font-size: 12px;
+
+	  	@include breakpoint(small) {
+	  		background: none;
+	  		color: $black-01;
+	  		font-size: 9px;
+	  	}
 	}
 }
 .entry-time {
 	font-size: 12px;
 	text-align: center;
 	color: $gray-04;
+
+	@include breakpoint(small) { font-size: 9px; }
 }
 .entry-content {
 	p {
 		font-family: $arial;
 		font-size: 14px;
 		color: $gray-02;
+
+		@include breakpoint(small) { font-size: 10px; }
 	}
 }
 .post {
 	padding-bottom: 50px;
 	border-bottom: 1px solid $gray-03;
 	margin-bottom: 50px;
+
+	@include breakpoint(small) { 
+		margin-bottom: 0;
+		border: 0;
+	}
 }
 .post-navigation {
 	text-align: center;

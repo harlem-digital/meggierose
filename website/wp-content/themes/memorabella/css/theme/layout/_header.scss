@@ -113,7 +113,9 @@ h1 {
 		pointer-events: none;
 	}
 }
-.icon-instagram a { background-position: -91px -23px; }
+.icon-instagram a {
+	background-position: -91px -23px;
+}
 .icon-pinterest a { background-position: -122px -23px; }
 
 .main-nav {
@@ -183,6 +185,7 @@ h1 {
 		height: 44px;
 		z-index: 3;
 		transform: translate(-50%, 0);
+		border-bottom: 1px solid $white-01;
 	}
 }
 
@@ -207,7 +210,11 @@ h1 {
 	&::placeholder { color: $gray-02; }
 
 	@include breakpoint(medium) { width: 539px; }
-	@include breakpoint(small) { width: 100%; }
+	@include breakpoint(small) {
+		width: 100%;
+		font-size: 12px;
+		height: 44px;
+	}
 }
 
 .form-icon {
@@ -228,7 +235,14 @@ h1 {
 
 	@include breakpoint(small) {
 		position: absolute;
-		right: 0;
+		top: 15px;
+		right: 10px;
+		width: 15px;
+		height: 15px;
+		background: url(#{$path}/images/memorabella-search-icon-mobile.png) center center no-repeat;
+		@include background-scale();
+
+		&:hover { background-position: center center; }
 	}
 }
 
@@ -255,5 +269,8 @@ h1 {
 
 	@include breakpoint(small) {
 		display: block;
+		[data-menu='open'] & {
+			border-top: 1px solid $white-01;
+		}
 	}
 }
