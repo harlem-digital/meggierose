@@ -504,18 +504,17 @@ img {
 @media (max-width: 767px) {
   /* line 73, theme/layout/_wrapper.scss */
   .post {
-    padding-bottom: 50;
     margin-bottom: 0;
     border: 0;
   }
 }
 
-/* line 84, theme/layout/_wrapper.scss */
+/* line 83, theme/layout/_wrapper.scss */
 .post-navigation {
   text-align: center;
 }
 
-/* line 87, theme/layout/_wrapper.scss */
+/* line 86, theme/layout/_wrapper.scss */
 .pagination {
   text-align: center;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -523,7 +522,7 @@ img {
   color: #e0e0e0;
   font-size: 30px;
 }
-/* line 94, theme/layout/_wrapper.scss */
+/* line 93, theme/layout/_wrapper.scss */
 .pagination a {
   color: #000;
   text-decoration: none;
@@ -531,7 +530,7 @@ img {
   font-size: 20px;
   font-weight: 700;
 }
-/* line 102, theme/layout/_wrapper.scss */
+/* line 101, theme/layout/_wrapper.scss */
 .pagination .prev, .pagination .next {
   color: #000;
 }

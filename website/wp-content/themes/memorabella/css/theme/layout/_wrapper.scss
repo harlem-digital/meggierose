@@ -76,7 +76,6 @@ img {
 	margin-bottom: 50px;
 
 	@include breakpoint(small) { 
-		padding-bottom: 50;
 		margin-bottom: 0;
 		border: 0;
 	}
