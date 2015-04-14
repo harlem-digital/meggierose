@@ -45,18 +45,28 @@ img {
 	  	text-transform: uppercase;
 	  	text-decoration: none;
 	  	font-size: 12px;
+
+	  	@include breakpoint(small) {
+	  		background: $white-01;
+	  		color: $black-01;
+	  		font-size: 9px;
+	  	}
 	}
 }
 .entry-time {
 	font-size: 12px;
 	text-align: center;
 	color: $gray-04;
+
+	@include breakpoint(small) { font-size: 9px; }
 }
 .entry-content {
 	p {
 		font-family: $arial;
 		font-size: 14px;
 		color: $gray-02;
+
+		@include breakpoint(small) { font-size: 10px; }
 	}
 }
 .post {
