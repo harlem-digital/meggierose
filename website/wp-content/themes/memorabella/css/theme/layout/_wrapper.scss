@@ -59,3 +59,22 @@ img {
 .post-navigation {
 	text-align: center;
 }
+.pagination {
+	text-align: center;
+	font-family: $arial;
+	text-transform: uppercase;
+	color: $gray-03;
+	font-size: 30px;
+
+	a {
+		color: $black-01;
+		text-decoration: none;
+		letter-spacing: 3px;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	.prev, .next {
+		color: $black-01;
+	}
+}

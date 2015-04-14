@@ -39,17 +39,14 @@ get_header(); ?>
 				get_template_part( 'content', get_post_format() );
 
 			// End the loop.
-			endwhile;
+			endwhile; ?>
 
-			// Previous/next page navigation.
-			the_posts_pagination( array(
-				'prev_text'          => __( 'Previous page', 'twentyfifteen' ),
-				'next_text'          => __( 'Next page', 'twentyfifteen' ),
-				'before_page_number' => '<span class="meta-nav screen-reader-text">' . __( 'Page', 'twentyfifteen' ) . ' </span>',
-			) );
+			<div class="pagination">
+				<span class="prev">&#8592;&nbsp;<?php next_posts_link( 'Previous' ); ?></span>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+				<span class="next"><?php previous_posts_link( 'Next' ); ?>&nbsp;&#8594;</span>
+			</div>
 
-		// If no content, include the "No posts found" template.
-		else :
+		<?php else :
 			get_template_part( 'content', 'none' );
 
 		endif;
