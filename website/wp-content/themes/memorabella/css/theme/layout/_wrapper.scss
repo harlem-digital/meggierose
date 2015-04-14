@@ -36,6 +36,10 @@ img {
 	text-align: center;
 	margin: 0 0 15px;
 
+	@include breakpoint(small) {
+		margin: 0 0 10px;
+	}
+
 	a {
 		background: $black-01;
 	  	font-family: $arial;
