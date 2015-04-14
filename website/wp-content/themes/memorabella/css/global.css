@@ -435,6 +435,11 @@ img {
   margin-bottom: 50px;
 }
 
+/* line 59, theme/layout/_wrapper.scss */
+.post-navigation {
+  text-align: center;
+}
+
 @media (min-width: 1001px) {
   /* line 14, C:/Users/wyatt/Documents/GitHub/meggierose/website/wp-content/themes/memorabella/css/app/layout/_grids.scss */
   .large_1 {
