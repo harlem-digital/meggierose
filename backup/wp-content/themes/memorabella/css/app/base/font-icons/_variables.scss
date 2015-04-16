@@ -1,0 +1,11 @@
+// --------------------------------------
+// Font Variables
+// --------------------------------------
+
+$-icon-font-family: (
+	glyphicons: "Glyphicons Halflings",
+	genericons: "Genericons"
+);
+
+$glyphicons: map-get($-icon-font-family, glyphicons);
+$genericons: map-get($-icon-font-family, genericons);

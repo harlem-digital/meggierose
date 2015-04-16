@@ -1,0 +1,121 @@
+/******************************************************************
+Theme Name: Mirza
+Description: An incredibly simple starter theme for Meggie Rose Repp.
+Author: Mirza Rahman
+Author URI: http://mirzar.com
+
+******************************************************************/
+
+/* @group RESET */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;background: transparent;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: '';content: none;}
+:focus {outline: 0;}
+ins {text-decoration: none;}
+del {text-decoration: line-through;}
+table {border-collapse: collapse; border-spacing: 0;}
+/* @end */
+
+/* @group Global */
+
+
+
+body{
+	color: #898888;
+	font: 14px/16px Times, "Times New Roman", Georgia, serif;
+	background: #fbfbf9 url(images/bg.png) repeat-y center;
+}
+a{ font-weight: bold; text-decoration: none; color: #ff9393;}
+a:hover{ color: #333333;}
+
+.clear{ clear: both; margin: 0px; padding: 0px;}
+.notext{ display: block; text-indent: -9999px; overflow:hidden; line-height:0px; font-size:0px;}
+.nom{ margin-right: 0px !important;}
+
+
+
+
+p{ margin-bottom: 18px;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+/* @end */
+
+
+#grid-wrapper{ 
+	width: 657px;  /*871*/
+	padding: 0 107px;
+	margin: auto;
+	
+}
+
+#logo{
+	float: left;
+	width: 415px;
+	height: 46px;
+}
+
+#contact{
+	float: right;
+	width: 80px;
+	height: 13px;
+	background-image: url(images/contact.png);
+	margin-top: 33px;
+}
+
+#header{
+	padding-top: 40px;
+	padding-bottom: 16px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #cccccc;
+}
+
+.grid-post{
+	display: block;
+	margin-bottom: 34px;
+}
+
+.grid-title, .grid-title a{
+	color: #03010d;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.grid-title:hover, .grid-title a:hover{
+	color: #ff9393;
+}
+
+.grid-date{ 
+	olor: #888787;
+	display: block;
+	margin-bottom: 8px;
+}
+
+.grid-post img{
+	max-width: 657px !important;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.bpn-next-link a, .bpn-prev-link a{
+	color: #898888;
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.bpn-next-link a:hover, .bpn-prev-link a:hover{
+	color: #000;
+	text-decoration: underline;
+}
+
+.bones_page_navi{
+	display: block;
+	padding-top: 20px;
+}
+
+
+

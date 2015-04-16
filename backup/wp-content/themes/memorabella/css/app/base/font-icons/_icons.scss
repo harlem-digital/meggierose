@@ -1,0 +1,1078 @@
+// --------------------------------------
+// Icons
+// --------------------------------------
+
+$-icons: (
+  404: (
+    type: "genericons",
+    content: "f423",
+  ),
+  aside: (
+    type: "genericons",
+    content: "f101",
+  ),
+  chat: (
+    type: "genericons",
+    content: "f108",
+  ),
+  close-alt: (
+    type: "genericons",
+    content: "f406",
+  ),
+  code: (
+    type: "genericons",
+    content: "f462",
+  ),
+  codepen: (
+    type: "genericons",
+    content: "f216",
+  ),
+  day: (
+    type: "genericons",
+    content: "f305",
+  ),
+  digg: (
+    type: "genericons",
+    content: "f221",
+  ),
+  document: (
+    type: "genericons",
+    content: "f443",
+  ),
+  dot: (
+    type: "genericons",
+    content: "f428",
+  ),
+  downarrow: (
+    type: "genericons",
+    content: "f502",
+  ),
+  dribbble: (
+    type: "genericons",
+    content: "f201",
+  ),
+  dropbox: (
+    type: "genericons",
+    content: "f225",
+  ),
+  dropdown: (
+    type: "genericons",
+    content: "f433",
+  ),
+  dropdown-left: (
+    type: "genericons",
+    content: "f434",
+  ),
+  ellipsis: (
+    type: "genericons",
+    content: "f476",
+  ),
+  facebook: (
+    type: "genericons",
+    content: "f203",
+  ),
+  facebook-alt: (
+    type: "genericons",
+    content: "f204",
+  ),
+  feed: (
+    type: "genericons",
+    content: "f413",
+  ),
+  flickr: (
+    type: "genericons",
+    content: "f211",
+  ),
+  foursquare: (
+    type: "genericons",
+    content: "f226",
+  ),
+  gallery: (
+    type: "genericons",
+    content: "f103",
+  ),
+  github: (
+    type: "genericons",
+    content: "f200",
+  ),
+  googleplus: (
+    type: "genericons",
+    content: "f206",
+  ),
+  googleplus-alt: (
+    type: "genericons",
+    content: "f218",
+  ),
+  hierarchy: (
+    type: "genericons",
+    content: "f505",
+  ),
+  instagram: (
+    type: "genericons",
+    content: "f215",
+  ),
+  key: (
+    type: "genericons",
+    content: "f427",
+  ),
+  leftarrow: (
+    type: "genericons",
+    content: "f503",
+  ),
+  linkedin: (
+    type: "genericons",
+    content: "f207",
+  ),
+  linkedin-alt: (
+    type: "genericons",
+    content: "f208",
+  ),
+  maximize: (
+    type: "genericons",
+    content: "f422",
+  ),
+  menu: (
+    type: "genericons",
+    content: "f419",
+  ),
+  paintbrush: (
+    type: "genericons",
+    content: "f506",
+  ),
+  path: (
+    type: "genericons",
+    content: "f219",
+  ),
+  pinterest: (
+    type: "genericons",
+    content: "f209",
+  ),
+  pinterest-alt: (
+    type: "genericons",
+    content: "f210",
+  ),
+  plugin: (
+    type: "genericons",
+    content: "f439",
+  ),
+  pocket: (
+    type: "genericons",
+    content: "f224",
+  ),
+  polldaddy: (
+    type: "genericons",
+    content: "f217",
+  ),
+  portfolio: (
+    type: "genericons",
+    content: "f460",
+  ),
+  quote: (
+    type: "genericons",
+    content: "f106",
+  ),
+  reddit: (
+    type: "genericons",
+    content: "f222",
+  ),
+  reply: (
+    type: "genericons",
+    content: "f412",
+  ),
+  reply-alt: (
+    type: "genericons",
+    content: "f466",
+  ),
+  reply-single: (
+    type: "genericons",
+    content: "f467",
+  ),
+  rightarrow: (
+    type: "genericons",
+    content: "f501",
+  ),
+  send-to-phone: (
+    type: "genericons",
+    content: "f438",
+  ),
+  send-to-tablet: (
+    type: "genericons",
+    content: "f454",
+  ),
+  sitemap: (
+    type: "genericons",
+    content: "f507",
+  ),
+  skype: (
+    type: "genericons",
+    content: "f220",
+  ),
+  spam: (
+    type: "genericons",
+    content: "f424",
+  ),
+  standard: (
+    type: "genericons",
+    content: "f100",
+  ),
+  status: (
+    type: "genericons",
+    content: "f105",
+  ),
+  stumbleupon: (
+    type: "genericons",
+    content: "f223",
+  ),
+  subscribe: (
+    type: "genericons",
+    content: "f463",
+  ),
+  subscribed: (
+    type: "genericons",
+    content: "f465",
+  ),
+  tablet: (
+    type: "genericons",
+    content: "f453",
+  ),
+  top: (
+    type: "genericons",
+    content: "f435",
+  ),
+  tumblr: (
+    type: "genericons",
+    content: "f214",
+  ),
+  twitter: (
+    type: "genericons",
+    content: "f202",
+  ),
+  unsubscribe: (
+    type: "genericons",
+    content: "f464",
+  ),
+  uparrow: (
+    type: "genericons",
+    content: "f500",
+  ),
+  video: (
+    type: "genericons",
+    content: "f104",
+  ),
+  vimeo: (
+    type: "genericons",
+    content: "f212",
+  ),
+  week: (
+    type: "genericons",
+    content: "f306",
+  ),
+  wordpress: (
+    type: "genericons",
+    content: "f205",
+  ),
+  xpost: (
+    type: "genericons",
+    content: "f504",
+  ),
+  youtube: (
+    type: "genericons",
+    content: "f213",
+  ),
+  asterisk: (
+    type: "glyphicons",
+    content: "2a",
+  ),
+  plus: (
+    type: "glyphicons",
+    content: "2b",
+  ),
+  euro: (
+    type: "glyphicons",
+    content: "20ac",
+  ),
+  minus: (
+    type: "glyphicons",
+    content: "2212",
+  ),
+  cloud: (
+    type: "glyphicons",
+    content: "2601",
+  ),
+  envelope: (
+    type: "glyphicons",
+    content: "2709",
+  ),
+  pencil: (
+    type: "glyphicons",
+    content: "270f",
+  ),
+  glass: (
+    type: "glyphicons",
+    content: "e001",
+  ),
+  music: (
+    type: "glyphicons",
+    content: "e002",
+  ),
+  search: (
+    type: "glyphicons",
+    content: "e003",
+  ),
+  heart: (
+    type: "glyphicons",
+    content: "e005",
+  ),
+  star: (
+    type: "glyphicons",
+    content: "e006",
+  ),
+  star-empty: (
+    type: "glyphicons",
+    content: "e007",
+  ),
+  user: (
+    type: "glyphicons",
+    content: "e008",
+  ),
+  film: (
+    type: "glyphicons",
+    content: "e009",
+  ),
+  th-large: (
+    type: "glyphicons",
+    content: "e010",
+  ),
+  th: (
+    type: "glyphicons",
+    content: "e011",
+  ),
+  th-list: (
+    type: "glyphicons",
+    content: "e012",
+  ),
+  ok: (
+    type: "glyphicons",
+    content: "e013",
+  ),
+  remove: (
+    type: "glyphicons",
+    content: "e014",
+  ),
+  zoom-in: (
+    type: "glyphicons",
+    content: "e015",
+  ),
+  zoom-out: (
+    type: "glyphicons",
+    content: "e016",
+  ),
+  off: (
+    type: "glyphicons",
+    content: "e017",
+  ),
+  signal: (
+    type: "glyphicons",
+    content: "e018",
+  ),
+  cog: (
+    type: "glyphicons",
+    content: "e019",
+  ),
+  trash: (
+    type: "glyphicons",
+    content: "e020",
+  ),
+  home: (
+    type: "glyphicons",
+    content: "e021",
+  ),
+  file: (
+    type: "glyphicons",
+    content: "e022",
+  ),
+  time: (
+    type: "glyphicons",
+    content: "e023",
+  ),
+  road: (
+    type: "glyphicons",
+    content: "e024",
+  ),
+  download-alt: (
+    type: "glyphicons",
+    content: "e025",
+  ),
+  download: (
+    type: "glyphicons",
+    content: "e026",
+  ),
+  upload: (
+    type: "glyphicons",
+    content: "e027",
+  ),
+  inbox: (
+    type: "glyphicons",
+    content: "e028",
+  ),
+  play-circle: (
+    type: "glyphicons",
+    content: "e029",
+  ),
+  repeat: (
+    type: "glyphicons",
+    content: "e030",
+  ),
+  refresh: (
+    type: "glyphicons",
+    content: "e031",
+  ),
+  list-alt: (
+    type: "glyphicons",
+    content: "e032",
+  ),
+  lock: (
+    type: "glyphicons",
+    content: "e033",
+  ),
+  flag: (
+    type: "glyphicons",
+    content: "e034",
+  ),
+  headphones: (
+    type: "glyphicons",
+    content: "e035",
+  ),
+  volume-off: (
+    type: "glyphicons",
+    content: "e036",
+  ),
+  volume-down: (
+    type: "glyphicons",
+    content: "e037",
+  ),
+  volume-up: (
+    type: "glyphicons",
+    content: "e038",
+  ),
+  qrcode: (
+    type: "glyphicons",
+    content: "e039",
+  ),
+  barcode: (
+    type: "glyphicons",
+    content: "e040",
+  ),
+  tag: (
+    type: "glyphicons",
+    content: "e041",
+  ),
+  tags: (
+    type: "glyphicons",
+    content: "e042",
+  ),
+  book: (
+    type: "glyphicons",
+    content: "e043",
+  ),
+  bookmark: (
+    type: "glyphicons",
+    content: "e044",
+  ),
+  print: (
+    type: "glyphicons",
+    content: "e045",
+  ),
+  camera: (
+    type: "glyphicons",
+    content: "e046",
+  ),
+  font: (
+    type: "glyphicons",
+    content: "e047",
+  ),
+  bold: (
+    type: "glyphicons",
+    content: "e048",
+  ),
+  italic: (
+    type: "glyphicons",
+    content: "e049",
+  ),
+  text-height: (
+    type: "glyphicons",
+    content: "e050",
+  ),
+  text-width: (
+    type: "glyphicons",
+    content: "e051",
+  ),
+  align-left: (
+    type: "glyphicons",
+    content: "e052",
+  ),
+  align-center: (
+    type: "glyphicons",
+    content: "e053",
+  ),
+  align-right: (
+    type: "glyphicons",
+    content: "e054",
+  ),
+  align-justify: (
+    type: "glyphicons",
+    content: "e055",
+  ),
+  list: (
+    type: "glyphicons",
+    content: "e056",
+  ),
+  indent-left: (
+    type: "glyphicons",
+    content: "e057",
+  ),
+  indent-right: (
+    type: "glyphicons",
+    content: "e058",
+  ),
+  facetime-video: (
+    type: "glyphicons",
+    content: "e059",
+  ),
+  picture: (
+    type: "glyphicons",
+    content: "e060",
+  ),
+  map-marker: (
+    type: "glyphicons",
+    content: "e062",
+  ),
+  adjust: (
+    type: "glyphicons",
+    content: "e063",
+  ),
+  tint: (
+    type: "glyphicons",
+    content: "e064",
+  ),
+  edit: (
+    type: "glyphicons",
+    content: "e065",
+  ),
+  share: (
+    type: "glyphicons",
+    content: "e066",
+  ),
+  check: (
+    type: "glyphicons",
+    content: "e067",
+  ),
+  move: (
+    type: "glyphicons",
+    content: "e068",
+  ),
+  step-backward: (
+    type: "glyphicons",
+    content: "e069",
+  ),
+  fast-backward: (
+    type: "glyphicons",
+    content: "e070",
+  ),
+  backward: (
+    type: "glyphicons",
+    content: "e071",
+  ),
+  play: (
+    type: "glyphicons",
+    content: "e072",
+  ),
+  pause: (
+    type: "glyphicons",
+    content: "e073",
+  ),
+  stop: (
+    type: "glyphicons",
+    content: "e074",
+  ),
+  forward: (
+    type: "glyphicons",
+    content: "e075",
+  ),
+  fast-forward: (
+    type: "glyphicons",
+    content: "e076",
+  ),
+  step-forward: (
+    type: "glyphicons",
+    content: "e077",
+  ),
+  eject: (
+    type: "glyphicons",
+    content: "e078",
+  ),
+  chevron-left: (
+    type: "glyphicons",
+    content: "e079",
+  ),
+  chevron-right: (
+    type: "glyphicons",
+    content: "e080",
+  ),
+  plus-sign: (
+    type: "glyphicons",
+    content: "e081",
+  ),
+  minus-sign: (
+    type: "glyphicons",
+    content: "e082",
+  ),
+  remove-sign: (
+    type: "glyphicons",
+    content: "e083",
+  ),
+  ok-sign: (
+    type: "glyphicons",
+    content: "e084",
+  ),
+  question-sign: (
+    type: "glyphicons",
+    content: "e085",
+  ),
+  info-sign: (
+    type: "glyphicons",
+    content: "e086",
+  ),
+  screenshot: (
+    type: "glyphicons",
+    content: "e087",
+  ),
+  remove-circle: (
+    type: "glyphicons",
+    content: "e088",
+  ),
+  ok-circle: (
+    type: "glyphicons",
+    content: "e089",
+  ),
+  ban-circle: (
+    type: "glyphicons",
+    content: "e090",
+  ),
+  arrow-left: (
+    type: "glyphicons",
+    content: "e091",
+  ),
+  arrow-right: (
+    type: "glyphicons",
+    content: "e092",
+  ),
+  arrow-up: (
+    type: "glyphicons",
+    content: "e093",
+  ),
+  arrow-down: (
+    type: "glyphicons",
+    content: "e094",
+  ),
+  share-alt: (
+    type: "glyphicons",
+    content: "e095",
+  ),
+  resize-full: (
+    type: "glyphicons",
+    content: "e096",
+  ),
+  resize-small: (
+    type: "glyphicons",
+    content: "e097",
+  ),
+  exclamation-sign: (
+    type: "glyphicons",
+    content: "e101",
+  ),
+  gift: (
+    type: "glyphicons",
+    content: "e102",
+  ),
+  leaf: (
+    type: "glyphicons",
+    content: "e103",
+  ),
+  fire: (
+    type: "glyphicons",
+    content: "e104",
+  ),
+  eye-open: (
+    type: "glyphicons",
+    content: "e105",
+  ),
+  eye-close: (
+    type: "glyphicons",
+    content: "e106",
+  ),
+  warning-sign: (
+    type: "glyphicons",
+    content: "e107",
+  ),
+  plane: (
+    type: "glyphicons",
+    content: "e108",
+  ),
+  calendar: (
+    type: "glyphicons",
+    content: "e109",
+  ),
+  random: (
+    type: "glyphicons",
+    content: "e110",
+  ),
+  magnet: (
+    type: "glyphicons",
+    content: "e112",
+  ),
+  chevron-up: (
+    type: "glyphicons",
+    content: "e113",
+  ),
+  chevron-down: (
+    type: "glyphicons",
+    content: "e114",
+  ),
+  retweet: (
+    type: "glyphicons",
+    content: "e115",
+  ),
+  shopping-cart: (
+    type: "glyphicons",
+    content: "e116",
+  ),
+  folder-close: (
+    type: "glyphicons",
+    content: "e117",
+  ),
+  folder-open: (
+    type: "glyphicons",
+    content: "e118",
+  ),
+  resize-vertical: (
+    type: "glyphicons",
+    content: "e119",
+  ),
+  resize-horizontal: (
+    type: "glyphicons",
+    content: "e120",
+  ),
+  hdd: (
+    type: "glyphicons",
+    content: "e121",
+  ),
+  bullhorn: (
+    type: "glyphicons",
+    content: "e122",
+  ),
+  bell: (
+    type: "glyphicons",
+    content: "e123",
+  ),
+  certificate: (
+    type: "glyphicons",
+    content: "e124",
+  ),
+  thumbs-up: (
+    type: "glyphicons",
+    content: "e125",
+  ),
+  thumbs-down: (
+    type: "glyphicons",
+    content: "e126",
+  ),
+  hand-right: (
+    type: "glyphicons",
+    content: "e127",
+  ),
+  hand-left: (
+    type: "glyphicons",
+    content: "e128",
+  ),
+  hand-up: (
+    type: "glyphicons",
+    content: "e129",
+  ),
+  hand-down: (
+    type: "glyphicons",
+    content: "e130",
+  ),
+  circle-arrow-right: (
+    type: "glyphicons",
+    content: "e131",
+  ),
+  circle-arrow-left: (
+    type: "glyphicons",
+    content: "e132",
+  ),
+  circle-arrow-up: (
+    type: "glyphicons",
+    content: "e133",
+  ),
+  circle-arrow-down: (
+    type: "glyphicons",
+    content: "e134",
+  ),
+  globe: (
+    type: "glyphicons",
+    content: "e135",
+  ),
+  wrench: (
+    type: "glyphicons",
+    content: "e136",
+  ),
+  tasks: (
+    type: "glyphicons",
+    content: "e137",
+  ),
+  filter: (
+    type: "glyphicons",
+    content: "e138",
+  ),
+  briefcase: (
+    type: "glyphicons",
+    content: "e139",
+  ),
+  fullscreen: (
+    type: "glyphicons",
+    content: "e140",
+  ),
+  dashboard: (
+    type: "glyphicons",
+    content: "e141",
+  ),
+  paperclip: (
+    type: "glyphicons",
+    content: "e142",
+  ),
+  heart-empty: (
+    type: "glyphicons",
+    content: "e143",
+  ),
+  link: (
+    type: "glyphicons",
+    content: "e144",
+  ),
+  phone: (
+    type: "glyphicons",
+    content: "e145",
+  ),
+  pushpin: (
+    type: "glyphicons",
+    content: "e146",
+  ),
+  usd: (
+    type: "glyphicons",
+    content: "e148",
+  ),
+  gbp: (
+    type: "glyphicons",
+    content: "e149",
+  ),
+  sort: (
+    type: "glyphicons",
+    content: "e150",
+  ),
+  sort-by-alphabet: (
+    type: "glyphicons",
+    content: "e151",
+  ),
+  sort-by-alphabet-alt: (
+    type: "glyphicons",
+    content: "e152",
+  ),
+  sort-by-order: (
+    type: "glyphicons",
+    content: "e153",
+  ),
+  sort-by-order-alt: (
+    type: "glyphicons",
+    content: "e154",
+  ),
+  sort-by-attributes: (
+    type: "glyphicons",
+    content: "e155",
+  ),
+  sort-by-attributes-alt: (
+    type: "glyphicons",
+    content: "e156",
+  ),
+  unchecked: (
+    type: "glyphicons",
+    content: "e157",
+  ),
+  expand: (
+    type: "glyphicons",
+    content: "e158",
+  ),
+  collapse-down: (
+    type: "glyphicons",
+    content: "e159",
+  ),
+  collapse-up: (
+    type: "glyphicons",
+    content: "e160",
+  ),
+  log-in: (
+    type: "glyphicons",
+    content: "e161",
+  ),
+  flash: (
+    type: "glyphicons",
+    content: "e162",
+  ),
+  log-out: (
+    type: "glyphicons",
+    content: "e163",
+  ),
+  new-window: (
+    type: "glyphicons",
+    content: "e164",
+  ),
+  record: (
+    type: "glyphicons",
+    content: "e165",
+  ),
+  save: (
+    type: "glyphicons",
+    content: "e166",
+  ),
+  open: (
+    type: "glyphicons",
+    content: "e167",
+  ),
+  saved: (
+    type: "glyphicons",
+    content: "e168",
+  ),
+  import: (
+    type: "glyphicons",
+    content: "e169",
+  ),
+  export: (
+    type: "glyphicons",
+    content: "e170",
+  ),
+  send: (
+    type: "glyphicons",
+    content: "e171",
+  ),
+  floppy-disk: (
+    type: "glyphicons",
+    content: "e172",
+  ),
+  floppy-saved: (
+    type: "glyphicons",
+    content: "e173",
+  ),
+  floppy-remove: (
+    type: "glyphicons",
+    content: "e174",
+  ),
+  floppy-save: (
+    type: "glyphicons",
+    content: "e175",
+  ),
+  floppy-open: (
+    type: "glyphicons",
+    content: "e176",
+  ),
+  credit-card: (
+    type: "glyphicons",
+    content: "e177",
+  ),
+  transfer: (
+    type: "glyphicons",
+    content: "e178",
+  ),
+  cutlery: (
+    type: "glyphicons",
+    content: "e179",
+  ),
+  header: (
+    type: "glyphicons",
+    content: "e180",
+  ),
+  compressed: (
+    type: "glyphicons",
+    content: "e181",
+  ),
+  earphone: (
+    type: "glyphicons",
+    content: "e182",
+  ),
+  phone-alt: (
+    type: "glyphicons",
+    content: "e183",
+  ),
+  tower: (
+    type: "glyphicons",
+    content: "e184",
+  ),
+  stats: (
+    type: "glyphicons",
+    content: "e185",
+  ),
+  sd-video: (
+    type: "glyphicons",
+    content: "e186",
+  ),
+  hd-video: (
+    type: "glyphicons",
+    content: "e187",
+  ),
+  subtitles: (
+    type: "glyphicons",
+    content: "e188",
+  ),
+  sound-stereo: (
+    type: "glyphicons",
+    content: "e189",
+  ),
+  sound-dolby: (
+    type: "glyphicons",
+    content: "e190",
+  ),
+  sound-5-1: (
+    type: "glyphicons",
+    content: "e191",
+  ),
+  sound-6-1: (
+    type: "glyphicons",
+    content: "e192",
+  ),
+  sound-7-1: (
+    type: "glyphicons",
+    content: "e193",
+  ),
+  copyright-mark: (
+    type: "glyphicons",
+    content: "e194",
+  ),
+  registration-mark: (
+    type: "glyphicons",
+    content: "e195",
+  ),
+  cloud-download: (
+    type: "glyphicons",
+    content: "e197",
+  ),
+  cloud-upload: (
+    type: "glyphicons",
+    content: "e198",
+  ),
+  tree-conifer: (
+    type: "glyphicons",
+    content: "e199",
+  ),
+  tree-deciduous: (
+    type: "glyphicons",
+    content: "e200",
+  )
+);
