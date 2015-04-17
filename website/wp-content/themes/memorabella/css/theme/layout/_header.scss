@@ -132,9 +132,9 @@ h1 {
 	li {
 		margin: 0 16px;
 		font-family: $arial;
-		font-size: 14px;
-		font-weight: bold;
+		font-size: 12px;
 		text-transform: uppercase;
+		letter-spacing: 3px;
 		
 		@include inline-block;
 
