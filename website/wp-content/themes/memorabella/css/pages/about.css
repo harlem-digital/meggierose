@@ -15,10 +15,12 @@ article {
   article {
     float: none;
     width: 100%;
+    padding-bottom: 30px;
+    margin-bottom: 0;
   }
 }
 
-/* line 19, about.scss */
+/* line 21, about.scss */
 section p {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 14px;

@@ -11,8 +11,9 @@
 		@include breakpoint(small) {
 			color: $gray-02;
 			font-family: $arial;
-			font-size: 12px;
+			font-size: 15px;
 			text-transform: uppercase;
+			letter-spacing: 3px;
 		}
 	}
 
@@ -34,12 +35,12 @@ h1 {
 	background: url(#{$path}/images/memorabella-logo.png) center bottom no-repeat;
 
 	@include breakpoint(small) {
-		width: 245px;
-		height: 43px;
+		width: 295px;
+		height: 52px;
 		top: 50px;
 		background: url(#{$path}/images/memorabella-logo-mobile.png) center bottom no-repeat;
 
-		@include background-scale();
+		@include background-scale('width');
 	}
 
 	a {
@@ -75,8 +76,8 @@ h1 {
 	}
 
 	.icon {
-		width: 17px;
-		height: 17px;
+		width: 20px;
+		height: 20px;
 		margin-right: 14px;
 
 		@include inline-block();
@@ -100,7 +101,7 @@ h1 {
 	@include image-replace();
 
 	@include breakpoint(small) {
-		padding: 15px 0;
+		padding: 18px 0;
 		color: inherit;
 		background: none;
 	}
@@ -141,6 +142,7 @@ h1 {
 		@include breakpoint(small) {
 			margin: 0;
 			width: 100%;
+			font-size: 15px;
 		}
 
 		a {
@@ -151,10 +153,10 @@ h1 {
 
 			@include breakpoint(small) {
 				display: block;
-				padding: 15px 0;
+				padding: 18px 0;
 				color: $gray-02;
 				font-family: $arial;
-				font-size: 12px;
+				font-size: 15px;
 				font-weight: normal;
 				text-transform: uppercase;
 
@@ -212,8 +214,11 @@ h1 {
 	@include breakpoint(medium) { width: 539px; }
 	@include breakpoint(small) {
 		width: 100%;
-		font-size: 12px;
+		font-size: 15px;
 		height: 44px;
+		padding: 0;
+		text-indent: 20px;
+		letter-spacing: 3px;
 	}
 }
 
@@ -240,7 +245,7 @@ h1 {
 		width: 15px;
 		height: 15px;
 		background: url(#{$path}/images/memorabella-search-icon-mobile.png) center center no-repeat;
-		@include background-scale();
+		@include background-scale('height');
 
 		&:hover { background-position: center center; }
 	}
@@ -257,7 +262,7 @@ h1 {
 
 .menu-button {
 	display: none;
-	padding: 15px 0;
+	padding: 18px 0;
 	color: $gray-02;
 	font-family: $arial;
 	font-size: 12px;
@@ -269,6 +274,8 @@ h1 {
 
 	@include breakpoint(small) {
 		display: block;
+		font-size: 15px;
+		letter-spacing: 3px;
 		[data-menu='open'] & {
 			border-top: 1px solid $white-01;
 		}

@@ -29,9 +29,8 @@ p, img {
 }
 
 img {
-	width: auto;
+	width: 100%;
 	height: auto;
-	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -90,10 +89,6 @@ article {
 	border-bottom: 1px solid $gray-03;
 	margin-bottom: 50px;
 
-	@include breakpoint(small) { 
-		margin-bottom: 0;
-	}
-
 	&:last-of-type {
 		border: 0;
 	}
@@ -141,4 +136,10 @@ article {
 		  	background-position: -232px -275px;
 		}
 	}
+}
+
+#wpstats {
+	visibility: hidden;
+	width: 1px;
+	height: 1px;
 }
