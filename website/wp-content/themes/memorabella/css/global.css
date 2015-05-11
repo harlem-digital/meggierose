@@ -566,26 +566,43 @@ article:last-of-type {
   height: 100%;
   color: transparent;
   overflow: hidden;
+  background: url(/wp-content/themes/memorabella/images/memorabella-sprite-desktop.png) no-repeat;
 }
-/* line 122, theme/layout/_wrapper.scss */
+/* line 124, theme/layout/_wrapper.scss */
 .pagination span.prev {
   width: 141px;
-  background-position: -61px -285px;
 }
 /* line 127, theme/layout/_wrapper.scss */
+.pagination span.prev a {
+  background-position: -61px -285px;
+}
+/* line 130, theme/layout/_wrapper.scss */
 .pagination span.next {
   width: 96px;
+  display: none;
+}
+/* line 134, theme/layout/_wrapper.scss */
+.pagination span.next a {
   background-position: -263px -285px;
 }
-/* line 132, theme/layout/_wrapper.scss */
+/* line 136, theme/layout/_wrapper.scss */
+.paged .pagination span.next {
+  display: inline-block;
+}
+/* line 141, theme/layout/_wrapper.scss */
 .pagination span.divider {
+  display: none;
   margin: 0 20px;
   width: 1px;
   height: 31px;
   background-position: -232px -275px;
 }
+/* line 148, theme/layout/_wrapper.scss */
+.paged .pagination span.divider {
+  display: inline-block;
+}
 
-/* line 141, theme/layout/_wrapper.scss */
+/* line 155, theme/layout/_wrapper.scss */
 #wpstats {
   visibility: hidden;
   width: 1px;

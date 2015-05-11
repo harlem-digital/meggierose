@@ -117,23 +117,37 @@ article {
 		  	width: 100%;
 		  	height: 100%;
 			@include image-replace();
+
+			background: url(#{$path}/images/memorabella-sprite-desktop.png) no-repeat;
 		}
 
 		&.prev {
 			width: 141px;
-		  	background-position: -61px -285px;
+
+		  	a { background-position: -61px -285px; }
 		}
 
 		&.next {
 			width: 96px;
-		  	background-position: -263px -285px;
+			display: none;
+
+		  	a { background-position: -263px -285px; }
+
+		  	.paged & {
+		  		display: inline-block;
+		  	}
 		}
 
 		&.divider {
+			display: none;
 			margin: 0 20px;
 		  	width: 1px;
 		  	height: 31px;
 		  	background-position: -232px -275px;
+
+		  	.paged & {
+		  		display: inline-block;
+		  	}
 		}
 	}
 }
