@@ -24,6 +24,14 @@
 			.main-nav { display: block; }
 		}
 	}
+
+	.navigation {
+		@include breakpoint(small) {
+			position: fixed;
+			width: 100%;
+			z-index: 10;
+		}
+	}
 }
 
 h1 {
@@ -37,7 +45,7 @@ h1 {
 	@include breakpoint(small) {
 		width: 295px;
 		height: 52px;
-		top: 50px;
+		top: 100px;
 		background: url(#{$path}/images/memorabella-logo-mobile.png) center bottom no-repeat;
 
 		@include background-scale('width');
