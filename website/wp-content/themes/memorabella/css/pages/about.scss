@@ -20,7 +20,10 @@ article {
 section {
 	p {
 		font-family: $arial;
-		font-size: 14px;
+		font-size: 12px;
 		color: $gray-02;
+		line-height: 18px;
+
+		@include breakpoint(small) { font-size: 13px; }
 	}
 }

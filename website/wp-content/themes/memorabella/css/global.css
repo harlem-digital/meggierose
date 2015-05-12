@@ -282,19 +282,20 @@ h1 a {
   /* line 177, theme/layout/_header.scss */
   #form {
     top: 0;
+    left: 0;
     opacity: 1;
     max-width: 100%;
     width: 100%;
     height: 44px;
     z-index: 3;
-    -webkit-transform: translate(-50%, 0);
-        -ms-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0);
     border-bottom: 1px solid #fff;
   }
 }
 
-/* line 202, theme/layout/_header.scss */
+/* line 203, theme/layout/_header.scss */
 #form.open {
   opacity: 1;
   -webkit-transform: translate(-50%, 0);
@@ -302,7 +303,7 @@ h1 a {
           transform: translate(-50%, 0);
 }
 
-/* line 207, theme/layout/_header.scss */
+/* line 208, theme/layout/_header.scss */
 .form-search {
   float: left;
   width: 739px;
@@ -316,7 +317,7 @@ h1 a {
   outline: 0;
   background: #000;
 }
-/* line 220, theme/layout/_header.scss */
+/* line 221, theme/layout/_header.scss */
 .form-search::-webkit-input-placeholder {
   color: #666;
 }
@@ -330,13 +331,13 @@ h1 a {
   color: #666;
 }
 @media (max-width: 1000px) {
-  /* line 207, theme/layout/_header.scss */
+  /* line 208, theme/layout/_header.scss */
   .form-search {
     width: 539px;
   }
 }
 @media (max-width: 767px) {
-  /* line 207, theme/layout/_header.scss */
+  /* line 208, theme/layout/_header.scss */
   .form-search {
     width: 100%;
     font-size: 15px;
@@ -347,7 +348,7 @@ h1 a {
   }
 }
 
-/* line 233, theme/layout/_header.scss */
+/* line 234, theme/layout/_header.scss */
 .form-icon {
   display: block;
   float: left;
@@ -356,19 +357,19 @@ h1 a {
   background: url(/wp-content/themes/memorabella/images/memorabella-sprite-desktop.png) #000 no-repeat;
 }
 
-/* line 241, theme/layout/_header.scss */
+/* line 242, theme/layout/_header.scss */
 .form-search-icon {
   border: 0;
   outline: 0;
   cursor: pointer;
   background-position: -837px -131px;
 }
-/* line 247, theme/layout/_header.scss */
+/* line 248, theme/layout/_header.scss */
 .form-search-icon:hover {
   background-position: -837px -182px;
 }
 @media (max-width: 767px) {
-  /* line 241, theme/layout/_header.scss */
+  /* line 242, theme/layout/_header.scss */
   .form-search-icon {
     position: absolute;
     top: 15px;
@@ -378,29 +379,29 @@ h1 a {
     background: url(/wp-content/themes/memorabella/images/memorabella-search-icon-mobile.png) center center no-repeat;
     background-size: auto 100%;
   }
-  /* line 258, theme/layout/_header.scss */
+  /* line 259, theme/layout/_header.scss */
   .form-search-icon:hover {
     background-position: center center;
   }
 }
 
-/* line 262, theme/layout/_header.scss */
+/* line 263, theme/layout/_header.scss */
 .form-cancel-icon {
   margin-left: 1px;
   background-position: -900px -131px;
 }
-/* line 266, theme/layout/_header.scss */
+/* line 267, theme/layout/_header.scss */
 .form-cancel-icon:hover {
   background-position: -900px -182px;
 }
 @media (max-width: 767px) {
-  /* line 262, theme/layout/_header.scss */
+  /* line 263, theme/layout/_header.scss */
   .form-cancel-icon {
     display: none;
   }
 }
 
-/* line 271, theme/layout/_header.scss */
+/* line 272, theme/layout/_header.scss */
 .menu-button {
   display: none;
   padding: 18px 0;
@@ -414,13 +415,13 @@ h1 a {
   background: #000;
 }
 @media (max-width: 767px) {
-  /* line 271, theme/layout/_header.scss */
+  /* line 272, theme/layout/_header.scss */
   .menu-button {
     display: block;
     font-size: 15px;
     letter-spacing: 3px;
   }
-  /* line 287, theme/layout/_header.scss */
+  /* line 288, theme/layout/_header.scss */
   [data-menu='open'] .menu-button {
     border-top: 1px solid #fff;
   }
